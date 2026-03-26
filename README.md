@@ -49,28 +49,38 @@ This distinction matters because it makes persona design auditable, composable, 
 
 ### Six Kinds of Links
 
-- **[Grafted nodes](glosses/Grafted%20Node%20as%20Transplanted%20Knowledge%20in%20a%20Garden%20Patch.html)** appear as clickable `[[Node Name]]` links — copied from the source garden and navigable here
-- **[Patch-native⊙ nodes](glosses/Patch-Native%20Node%20as%20Original%20Knowledge%20in%20a%20Garden%20Patch.html)** are marked with ⊙ — born in this patch, this is their home
-- **[Upstream↑ nodes](glosses/Upstream%20Node%20as%20Source%20Garden%20Reference.html)** are marked with ↑ — they exist in the source garden but aren't included here. See the [Upstream Nodes section](NODES.md#upstream-nodes↑) in the Node Directory for summaries
-- **[Ghost links](glosses/Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html)** appear as plain `[[Node Name]]` text (not clickable) — stakes marking possible future nodes
-- **Regular links** use standard markdown `[text](url)` syntax
-
-### Predicates
-
-Every node carries typed predicates — labeled directed edges in the knowledge graph:
-
-```
-- is_a::[[Persona Form]]         ← what kind of node this is
-- has_status::[[Growing Stage]]  ← maturity level
-- in_domain::[[Agentic Architecture]]  ← knowledge area
-- in_precinct::[[Garden Precinct]]     ← organizational zone
-```
-
-These aren't tags or metadata. They're structural relationships that make the graph navigable and queryable.
+| What You See | What It Means |
+|---|---|
+| [\[\[Node Name\]\]](glosses/Grafted%20Node%20as%20Transplanted%20Knowledge%20in%20a%20Garden%20Patch.html) | [\[\[**Grafted node**\]\]](glosses/Grafted%20Node%20as%20Transplanted%20Knowledge%20in%20a%20Garden%20Patch.html) — copied from the source garden into this patch. Click to navigate. |
+| [\[\[Node Name\]\]⊙](glosses/Patch-Native%20Node%20as%20Original%20Knowledge%20in%20a%20Garden%20Patch.html) | [\[\[**Patch-native node**\]\]](glosses/Patch-Native%20Node%20as%20Original%20Knowledge%20in%20a%20Garden%20Patch.html) — born in this garden patch, not grafted from upstream. This patch is its garden home. |
+| [\[\[Node Name\]\]↑](NODES.html) | [\[\[**Upstream node**\]\]](glosses/Upstream%20Node%20as%20Source%20Garden%20Reference.html) — exists in the source garden but was not grafted into this patch. Click for its summary on the [Node Directory](NODES.html) page. |
+| \[\[Node Name\]\] | [\[\[**Ghost link**\]\]](glosses/Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html) — a reference to a node that does not exist yet. A stake in the ground marking where a node could grow. |
+| \[\[Node Name\]\]↗ *(planned)* | A reference to a node in **somebody else's published garden** — a different gardener's version of the same or related concept. |
+| [Link text](https://example.com) | **Regular link** — a standard web link to an external website, document, or resource. No brackets. |
 
 ### Form Types
 
-Each node is an instance of a form type with a [structural contract](glosses/Structural%20Contract%20as%20Form%20Type%20Agreement.html). The contract defines what questions the form answers and how instances are organized. See [Form Type Definitions](forms/) for all contracts.
+Each node belongs to a **form type** that determines its [structural contract](glosses/Structural%20Contract%20as%20Form%20Type%20Agreement.html) — what question it answers and how it is organized.
+
+| Form Type | Core Question | Example |
+|-----------|--------------|---------|
+| [\[\[**Persona**\]\]](forms/Persona%20Form.html) | "What is this agent's behavioral identity?" | [\[\[Seneschal Persona\]\]](personas/Seneschal%20Persona.html) |
+| [\[\[**Model**\]\]](forms/Model%20Form.html) | "How do these elements relate?" | [\[\[The Persona Selection Model\]\]](models/The%20Persona%20Selection%20Model.html) |
+| [\[\[**Pattern**\]\]](forms/Pattern%20Form.html) | "What resolves this recurring tension?" | [\[\[Role Prompting Improves Style but Not Accuracy\]\]](patterns/Role%20Prompting%20Improves%20Style%20but%20Not%20Accuracy.html) |
+| [\[\[**Gloss**\]\]](forms/Gloss%20Form.html) | "What does this concept mean?" | [\[\[Behavioral Questions vs Identity Assertions in Persona Design\]\]](glosses/Behavioral%20Questions%20vs%20Identity%20Assertions%20in%20Persona%20Design.html) |
+| [\[\[**Inquiry**\]\]](forms/Inquiry%20Form.html) | "What should we think about X?" | [\[\[Does the Garden Persona Architecture Need a Portability Layer\]\]](inquiries/Does%20the%20Garden%20Persona%20Architecture%20Need%20a%20Portability%20Layer.html) |
+| [\[\[**Decision**\]\]](forms/Decision%20Form.html) | "Why did we choose this over alternatives?" | [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) |
+| [\[\[**Domain**\]\]](forms/Domain%20Form.html) | "What knowledge area is this?" | [\[\[Agentic Architecture\]\]](domains/Agentic%20Architecture.html) |
+
+All [\[\[form type definitions\]\]](forms/index.html), [\[\[personas\]\]](personas/index.html), [\[\[models\]\]](models/index.html), [\[\[glosses\]\]](glosses/index.html), [\[\[patterns\]\]](patterns/index.html), [\[\[inquiries\]\]](inquiries/index.html), and [\[\[decisions\]\]](decisions/index.html) are browsable by section.
+
+### Predicate Links
+
+Lines like `relates_to::[[Target]]` are **labeled directed edges** in the knowledge graph. The predicate name (before `::`) says *how* two nodes relate; the wikilink (after `::`) identifies the target node. These typed edges are the structure that makes a garden more than a folder of documents. See [\[\[Deep Context Graph Vocabulary\]\]](glosses/Deep%20Context%20Graph%20Vocabulary.html) for the full predicate catalog.
+
+### Patches as Forks
+
+Grafted nodes in a patch are **forks** of their source garden originals. As the patch grows — new connections to persona design content, refined explanations, additional context — the forked nodes diverge from their upstream versions. These changes can be **merged back** to the source garden, carrying insights discovered through the patch context. The patch is not a static copy; it is a living branch of the knowledge graph.
 
 ## Knowledge Domains
 
@@ -81,6 +91,21 @@ Each node is an instance of a form type with a [structural contract](glosses/Str
 ---
 
 **Author**: Christopher Allen
-**License**: [CC-BY 4.0](LICENSE)
-**Status**: Seed Stage — first publication of persona garden content
-**Source garden**: Private Obsidian vault with [deep context](glosses/Deep%20Context%20as%20Shared%20Language.html) architecture
+**Context**: Ongoing dialogue with Peter Kaminski about agency, AI personas, and structured knowledge — building toward a working group with Victoria Gracia and others.
+**Source garden**: [\[\[Deep Context Architecture\]\]](domains/Deep%20Context%20Architecture.html) — the source for grafted nodes and upstream↑ references. The full garden is in progress and will be published at [DeepContext.com](https://deepcontext.com).
+**Status**: This entire garden patch is at [\[\[Seed Stage\]\]](forms/Seed%20Stage.html) — initial creation with low confidence, intended to grow through dialogue and use.
+**License**: Content is available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) unless otherwise noted. By contributing, you agree to license your contributions under the same license. © Christopher Allen and contributors.
+
+> "These personas — I tried not to be just a cheap pastiche thing. It wasn't just a parlor trick." — Peter Kaminski, on designing 27 reflection personas for his course — the conversation that sparked this garden patch (March 2026)
+
+> "This should be a first-class form, a garden form, and integrate some of the agent stuff as well." — Christopher Allen, on making persona a knowledge artifact rather than a configuration file (March 2026)
+
+### About This Implementation
+
+This garden patch was hand-assembled with the help of scripts that convert Obsidian wikilinks to GitHub Pages-compatible markdown. The output is close to what we want as an exemplar, but the process is not yet automated.
+
+**Near-term goal**: A Claude Code skill — similar in spirit to [MassiveWiki](https://massivewiki.org) — where a gardener identifies a root node and the skill traverses the graph to determine which nodes to include, then generates a self-contained static website like this one. Changes made through GitHub's interface would auto-deploy, and the gardener could selectively merge edits back into their personal garden. Attribution and provenance would follow [Open Integrity](https://github.com/OpenIntegrityProject) conventions — signed commits, verifiable authorship, transparent history.
+
+**Longer-term vision**: Thousands of gardens flourishing independently, each a personal knowledge system whose nodes are content-addressable — identified by what they contain, not where they are stored. Garden patches become portable, self-contained objects that carry their own permissions and provenance. Gardeners share nodes peer-to-peer with full attribution, make assertions about each other's content, and use [elision](https://developer.blockchaincommons.com/envelope/elision/) to selectively redact sensitive material while cryptographic proofs verify the whole remains intact. [Progressive trust](https://developer.blockchaincommons.com/progressive-trust/) governs how gardens deepen relationships — from anonymous exchange through verified collaboration. [Gordian Envelope](https://developer.blockchaincommons.com/envelope/) provides the infrastructure: autonomous cryptographic objects that work offline, across time, without central servers — infrastructure you control rather than infrastructure that controls you. The result is not a platform but an ecosystem where independent thinkers can cooperate, collaborate, fork, merge, attribute, and build on each other's reasoning while preserving human agency, dignity, and the right to exit.
+
+That ecosystem does not exist yet. This patch is a proof of concept for what it would produce. For the full scenario, see [[Thousand Gardens with Autonomous Trust]]↑.

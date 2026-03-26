@@ -25,7 +25,7 @@ The garden solves the problem of making knowledge retrievable, composable, and t
 
 ## Living Documents
 
-Garden nodes are [[Living Documents Over Static Publications|living documents]]↑. They grow through stages, absorb new connections, and are never "published" in the way an article or book is. Git preserves their history, but the current state is what readers and agents encounter. This distinguishes the garden from publication-oriented knowledge systems where value concentrates in a specific released version. Mutability varies by form type — most nodes are designed to evolve, while cases record immutable history and convictions change only through fundamental shifts.
+Garden nodes are [[Living Documents Over Static Publications]]↑. They grow through stages, absorb new connections, and are never "published" in the way an article or book is. Git preserves their history, but the current state is what readers and agents encounter. This distinguishes the garden from publication-oriented knowledge systems where value concentrates in a specific released version. Mutability varies by form type — most nodes are designed to evolve, while cases record immutable history and convictions change only through fundamental shifts.
 
 ## Relationship to Household Precinct
 

@@ -19,7 +19,7 @@ In a Deep Context Architecture garden, ghost links serve as **planning tools**. 
 
 The gardening metaphor: a ghost link is a **stake in the ground** marking where something should be planted. The stake shows the gardener's intention — this is where a pattern, model, or inquiry should grow — without committing to the planting yet.
 
-Ghost links are visually distinct: they render as **plain, non-clickable text** with `[[brackets]]↑`. This distinguishes them from grafted nodes (clickable, no marker), [[Patch-Native Node as Original Knowledge in a Garden Patch|patch-native nodes]]↑ (clickable, with ⊙ marker), and [[Upstream Node as Source Garden Reference|upstream nodes]]↑ (clickable, with ↑ marker).
+Ghost links are visually distinct: they render as **plain, non-clickable text** with `[[brackets]]↑`. This distinguishes them from grafted nodes (clickable, no marker), [patch-native nodes](Patch-Native%20Node%20as%20Original%20Knowledge%20in%20a%20Garden%20Patch.html) (clickable, with ⊙ marker), and [upstream nodes](Upstream%20Node%20as%20Source%20Garden%20Reference.html) (clickable, with ↑ marker).
 
 ## Ghost Links in Practice
 

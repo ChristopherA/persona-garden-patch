@@ -21,8 +21,8 @@ Links to upstream nodes are marked with **↑** and are clickable — they navig
 
 The ↑ marker distinguishes upstream nodes from:
 - **Grafted nodes** (clickable without a marker — copied from source garden, present in the patch)
-- **[[Patch-Native Node as Original Knowledge in a Garden Patch|Patch-native nodes]]↑⊙** (clickable with ⊙ — born in this patch)
-- **[[Ghost Link as Unplanted Garden Stake|Ghost links]]↑** (plain text, not clickable — the node does not exist yet)
+- **[Patch-native nodes](Patch-Native%20Node%20as%20Original%20Knowledge%20in%20a%20Garden%20Patch.html)⊙** (clickable with ⊙ — born in this patch)
+- **[Ghost links](Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html)** (plain text, not clickable — the node does not exist yet)
 
 ## Why Not Include Everything
 

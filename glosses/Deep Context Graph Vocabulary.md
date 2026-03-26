@@ -34,7 +34,7 @@ This gloss consolidates the graph vocabulary: structural terms from the compound
 
 **Rendition**: A format-transformed markdown copy of an external source. Searchable. Lives in `Renditions/`. Created by conversion tools. Carries `derived_from::` pointing to the canonical source. Defined by [[Renditions and Archives Replace Sources]]↑ and [[Renditions and Archives as Distinct Artifact Types]]↑.
 
-**Archive**: A preserved original binary. Lives in `Archives/` within a compound node folder. Named with [[Descriptive Slugs for Archive Binaries|descriptive slugs]]↑. Most don't need sidecars. Distinct from `Attachments/`, which is Obsidian's paste/drag subfolder for embedded media. Defined by [[Renditions and Archives Replace Sources]]↑ and [[Renditions and Archives as Distinct Artifact Types]]↑.
+**Archive**: A preserved original binary. Lives in `Archives/` within a compound node folder. Named with [[Descriptive Slugs for Archive Binaries]]↑. Most don't need sidecars. Distinct from `Attachments/`, which is Obsidian's paste/drag subfolder for embedded media. Defined by [[Renditions and Archives Replace Sources]]↑ and [[Renditions and Archives as Distinct Artifact Types]]↑.
 
 **Sidecar** (`.sidecar.md`): A metadata envelope for a binary that cannot carry its own frontmatter. Links to its binary via `artifact::` (per [[Artifact Predicate for Binary Metadata]]↑) and to the canonical source via `derived_from::`. Only created when the binary is actively cited or needs agent discoverability. Defined by [[Sidecar Files as Metadata Envelopes]]↑.
 

@@ -34,10 +34,12 @@ for root, dirs, files in os.walk(garden):
         # Already-marked look like [[Target]]↑
         
         def mark_plain(m):
-            target = m.group(1)
+            raw_target = m.group(1)
+            # Handle aliased wikilinks: [[Target|Display Text]]
+            target = raw_target.split('|')[0] if '|' in raw_target else raw_target
             if target in in_patch:
                 return m.group(0)  # in-patch, leave as plain wikilink
-            return '[[' + target + ']]↑'
+            return '[[' + raw_target + ']]↑'
         
         # Match plain [[Target]] not followed by ↑ or ↗
         # But NOT the linkified ones (which have \[\[ pattern)

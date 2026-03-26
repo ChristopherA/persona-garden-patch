@@ -17,10 +17,10 @@ A garden patch is a **self-contained collection of garden nodes** placed alongsi
 
 A patch carries everything needed to read it:
 
-- **Form type definitions** — [[Structural Contract as Form Type Agreement|structural contracts]]↑ for every form type used
+- **Form type definitions** — [structural contracts](Structural%20Contract%20as%20Form%20Type%20Agreement.html) for every form type used
 - **Domain pages** — knowledge areas that cross-cut the nodes
-- **[[Grafted Node as Transplanted Knowledge in a Garden Patch|Grafted nodes]]↑** — copies from the source garden, adapted for the patch context
-- **[[Patch-Native Node as Original Knowledge in a Garden Patch|Patch-native nodes]]↑⊙** — new nodes seeded from the external content, marked with ⊙
+- **[Grafted nodes](Grafted%20Node%20as%20Transplanted%20Knowledge%20in%20a%20Garden%20Patch.html)** — copies from the source garden, adapted for the patch context
+- **[Patch-native nodes](Patch-Native%20Node%20as%20Original%20Knowledge%20in%20a%20Garden%20Patch.html)⊙** — new nodes seeded from the external content, marked with ⊙
 - **Citations** — with canonical URLs pointing to source works
 - **A node directory** — complete listing of every node by provenance (grafted, patch-native⊙, upstream↑)
 
@@ -47,7 +47,7 @@ Patch-native nodes⊙ may also flow upstream. A gloss or model created to interp
 
 ## Composability
 
-Patches are composable fragments. Two patches from different source gardens can coexist in the same repository. The form type system ensures structural compatibility — a [\[\[Model Form\]\]](../forms/Model%20Form.html) in one patch follows the same [[Structural Contract as Form Type Agreement|structural contract]]↑ as a Model Form in any other garden. A patch author's interpretation is distinct from the source garden's authority, and the markers make this visible.
+Patches are composable fragments. Two patches from different source gardens can coexist in the same repository. The form type system ensures structural compatibility — a [\[\[Model Form\]\]](../forms/Model%20Form.html) in one patch follows the same [structural contract](Structural%20Contract%20as%20Form%20Type%20Agreement.html) as a Model Form in any other garden. A patch author's interpretation is distinct from the source garden's authority, and the markers make this visible.
 
 ## Sources
 
