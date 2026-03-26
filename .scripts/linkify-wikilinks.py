@@ -26,7 +26,7 @@ for root, dirs, files in os.walk(os.path.join(garden, 'citations')):
                 html_rel = rel[:-3] + '.html'
                 stem_to_path[d] = html_rel
 
-skip_files = {'README.md', 'AGENTS.md'}
+skip_files = {'AGENTS.md'}
 
 changed = 0
 for root, dirs, files in os.walk(garden):
@@ -40,29 +40,44 @@ for root, dirs, files in os.walk(garden):
             content = fh.read()
         
         original = content
-        
+
+        # Protect code fences: replace with placeholders before linkifying
+        code_blocks = []
+        def save_code(m):
+            code_blocks.append(m.group(0))
+            return f'__CODE_BLOCK_{len(code_blocks) - 1}__'
+        content = re.sub(r'```.*?```', save_code, content, flags=re.DOTALL)
+
         def linkify(m):
             full = m.group(0)
-            target = m.group(1)
+            raw_target = m.group(1)
             after = m.group(2) if m.group(2) else ''
-            
+
+            # Handle aliased wikilinks: [[Target|Display Text]]
+            if '|' in raw_target:
+                target, display = raw_target.split('|', 1)
+            else:
+                target = raw_target
+                display = None
+
             if target not in stem_to_path:
                 return full  # external or ghost — leave as-is
-            
+
             # Compute relative path from this file's directory
             target_path = stem_to_path[target]
             if file_dir != '.':
                 rel_path = os.path.relpath(target_path, file_dir)
             else:
                 rel_path = target_path
-            
+
             # URL-encode spaces
             rel_path = rel_path.replace(' ', '%20')
             # Encode parentheses for markdown link compatibility
             rel_path = rel_path.replace('(', '%28').replace(')', '%29')
-            
-            # Return clickable link with brackets shown
-            return '[\\[\\[' + target + '\\]\\]](' + rel_path + ')' + after
+
+            # Return clickable link — use display text if aliased
+            link_text = display if display else target
+            return '[' + link_text + '](' + rel_path + ')' + after
         
         # Match [[Target]] optionally followed by ↑ (but only for non-↑ ones since those are external)
         # Only convert wikilinks that are NOT followed by ↑
@@ -70,6 +85,10 @@ for root, dirs, files in os.walk(garden):
                         lambda m: m.group(0) if m.group(2) else linkify(m), 
                         content)
         
+        # Restore code blocks
+        for i, block in enumerate(code_blocks):
+            content = content.replace(f'__CODE_BLOCK_{i}__', block)
+
         if content != original:
             with open(filepath, 'w') as fh:
                 fh.write(content)

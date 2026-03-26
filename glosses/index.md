@@ -8,6 +8,8 @@ Interpretive definitions that frame concepts through a broader lens.
 
 **[Deep Context Graph Vocabulary](Deep%20Context%20Graph%20Vocabulary.html)** — Plain markdown as a typed graph — nodes, edges, and predicates defined.
 
+**[Deep Context as Shared Language](Deep%20Context%20as%20Shared%20Language.html)** — When practitioners share deep context, a single phrase invokes an entire framework of understanding
+
 **[Garden Patch as Composable Knowledge Fragment](Garden%20Patch%20as%20Composable%20Knowledge%20Fragment.html)** — A portable garden fork that reveals connections in external content through typed knowledge forms
 
 **[Garden Precinct](Garden%20Precinct.html)** — Curated knowledge nodes with structural contracts and growth stages
@@ -28,4 +30,4 @@ Interpretive definitions that frame concepts through a broader lens.
 
 **[Upstream Node as Source Garden Reference](Upstream%20Node%20as%20Source%20Garden%20Reference.html)** — A node that exists in the source garden but was not grafted into this patch
 
-*13 nodes in this section.*
+*14 nodes in this section.*

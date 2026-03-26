@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 28 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
+**8 patch-native⊙ nodes · 29 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
 
 ---
 
@@ -86,6 +86,7 @@ Nodes explaining the garden system itself.
 - [\[\[Ghost Link as Unplanted Garden Stake\]\]](glosses/Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html) — Stakes marking possible future nodes
 - [\[\[Neobooks as Composable Knowledge Objects\]\]](glosses/Neobooks%20as%20Composable%20Knowledge%20Objects.html) — The broader vision of knowledge objects that can be assembled and disassembled
 - [\[\[Principal Authority as Agency Law for Digital Identity\]\]](glosses/Principal%20Authority%20as%20Agency%20Law%20for%20Digital%20Identity.html) — Agency law framework for understanding delegation and authority
+- [\[\[Deep Context as Shared Language\]\]](glosses/Deep%20Context%20as%20Shared%20Language.html) — When practitioners share deep context, a single phrase invokes an entire framework of understanding
 
 ### Knowledge Domains
 
@@ -334,11 +335,11 @@ These nodes exist in the source garden but were not grafted into this patch. Whe
 
 **Deep Context Garden Conventions**: Practical conventions for the first deep context garden in this Obsidian vault. Hard line between tags (flat classification, no graph edges) and links (graph edges). Two-namespace tag system: type/ for document category, status/ for maturity. Topic tags explicitly rejected — wikilinks produce graph edges instead.
 
-**Deep Context Implementation Roadmap**: Iteration-by-iteration plan for building a Deep Context garden inside an Obsidian vault. Defines four phases — Foundation, Seed Graph, Content Migration, Publishing — each independently valuable. Uses predicate::[[target]] typed relations and targets an hour-a-day tending rhythm with agent assistance between sessions.
+**Deep Context Implementation Roadmap**: Iteration-by-iteration plan for building a Deep Context garden inside an Obsidian vault. Defines four phases — Foundation, Seed Graph, Content Migration, Publishing — each independently valuable. Uses predicate::[[target]]↑ typed relations and targets an hour-a-day tending rhythm with agent assistance between sessions.
 
 **Structural Elements Within Forms**: Reference for knowledge types that don't warrant their own form type — ADR, Narrative, Warrant, Signal, Commitment, Lexicon entry, Tension/Paradox. Each has a home inside existing forms. Answers 'where does X go?' for the seven types that failed the standalone document test.
 
-**Typed Relations as Simple Graphs in Plain Markdown**: predicate::[[Target]] typed relations turn markdown files into a directed labeled graph with no database or schema. Plain wikilinks answer \
+**Typed Relations as Simple Graphs in Plain Markdown**: predicate::[[Target]]↑ typed relations turn markdown files into a directed labeled graph with no database or schema. Plain wikilinks answer \
 
 ### Research Form
 
@@ -368,13 +369,13 @@ These nodes exist in the source garden but were not grafted into this patch. Whe
 
 **Augmentation Over Autonomy in Agent Architecture**: The commission architecture is augmentation, facilitation, and amplification — not autonomous operation. Orchestrator personas must escalate to the user before merging deliverables containing judgments about intellectual content, skill behavior changes, priority signals, cross-project architectural decisions, or authorial voice. Process and plumbing fixes are autonomous. The test: does this contain judgments about the user's work, priorities, or intellectual stance?
 
-**Body Predicates for Meeting Attendees**: Meeting attendees are recorded as body predicates (attendee::[[Person Name]]) instead of YAML frontmatter lists. More verbose for large meetings but graph-traversable, enabling queries like 'which meetings did [[Person]] attend?' Person names as wikilinks create connections to Person Notes.
+**Body Predicates for Meeting Attendees**: Meeting attendees are recorded as body predicates (attendee::[[Person Name]]↑) instead of YAML frontmatter lists. More verbose for large meetings but graph-traversable, enabling queries like 'which meetings did [[Person]]↑ attend?' Person names as wikilinks create connections to Person Notes.
 
 **Boundary Guardian as Distinct Agent Type**: Establishes boundary guardian as a distinct functional type in the estate's agent taxonomy, separate from orchestrators and workers. Privacy enforcement, secret protection, and pseudonymous identity guarding deserve dedicated attention — not just a feature of the orchestrator who also organizes notes. The Chatelaine role was split: Chancellor (orchestrator) and Chatelaine (boundary guardian).
 
 **Classification via Predicates Not Tags**: Classification uses body-level typed relations (is_a::, has_status::) instead of YAML tags. The general litmus test: is the value a fixed scalar or a connection to a defined concept? Scalars go in frontmatter fields, connections go in typed relations, subject matter goes in wikilinks. Tags produce sets; links produce graphs.
 
-**Custom Python Generator for Typed Relations**: Chose a custom Python static site generator (~150 lines, four-stage pipeline) over Quartz, Jekyll, Eleventy, and Pandoc for publishing a garden with predicate::[[target]] typed relations. Standard markdown parsers ignore wikilinks, typed inline relations, and typed block-level relations — the three syntax patterns the garden depends on. A single-file generator with no external parser dependencies handles exactly what's needed.
+**Custom Python Generator for Typed Relations**: Chose a custom Python static site generator (~150 lines, four-stage pipeline) over Quartz, Jekyll, Eleventy, and Pandoc for publishing a garden with predicate::[[target]]↑ typed relations. Standard markdown parsers ignore wikilinks, typed inline relations, and typed block-level relations — the three syntax patterns the garden depends on. A single-file generator with no external parser dependencies handles exactly what's needed.
 
 **Deep Context as an Architecture for Captured Reasoning**: The decision to capture personal reasoning as typed markdown forms connected by predicates — not as fine-tuned models, retrieval-augmented documents, or tagged notes. Typed forms with structural contracts make reasoning traversable by agents; predicates make it navigable; progressive disclosure makes it fit in context windows.
 
