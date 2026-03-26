@@ -25,10 +25,10 @@ This raises an [\[\[open question\]\]](inquiries/Where%20Do%20Patch-Native%20Nod
 ## What's in This Patch
 
 **8 persona design documents** (patch-native⊙) — the operational architecture for a multi-agent knowledge estate:
-- Orchestrators: [\[\[Seneschal Persona|Seneschal\]\]](personas/Seneschal%20Persona.html), [\[\[Groundskeeper Persona|Groundskeeper\]\]](personas/Groundskeeper%20Persona.html), [\[\[Chancellor Persona|Chancellor\]\]](personas/Chancellor%20Persona.html)
-- Boundary guardian: [\[\[Chatelaine Persona|Chatelaine\]\]](personas/Chatelaine%20Persona.html)
-- General worker: [\[\[Gardener Persona|Gardener\]\]](personas/Gardener%20Persona.html)
-- Specialized workers: [\[\[Cultivator Persona|Cultivator\]\]](personas/Cultivator%20Persona.html), [\[\[Forager Persona|Forager\]\]](personas/Forager%20Persona.html), [\[\[Pruner Persona|Pruner\]\]](personas/Pruner%20Persona.html)
+- Orchestrators: [Seneschal](personas/Seneschal%20Persona.html), [Groundskeeper](personas/Groundskeeper%20Persona.html), [Chancellor](personas/Chancellor%20Persona.html)
+- Boundary guardian: [Chatelaine](personas/Chatelaine%20Persona.html)
+- General worker: [Gardener](personas/Gardener%20Persona.html)
+- Specialized workers: [Cultivator](personas/Cultivator%20Persona.html), [Forager](personas/Forager%20Persona.html), [Pruner](personas/Pruner%20Persona.html)
 
 **16 research-extracted nodes** (grafted from source garden) — the analytical framework:
 - 6 models mapping the persona design landscape
