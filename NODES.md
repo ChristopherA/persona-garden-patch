@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 29 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
+**8 patch-native⊙ nodes · 32 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
 
 ---
 
@@ -64,12 +64,14 @@ Open questions about persona architecture.
 
 - [\[\[Does the Garden Persona Architecture Need a Portability Layer\]\]](inquiries/Does%20the%20Garden%20Persona%20Architecture%20Need%20a%20Portability%20Layer.html) — Whether and how persona designs should be portable across agent frameworks
 - [\[\[What Persona Evaluation and Testing Infrastructure Does the Garden Need\]\]](inquiries/What%20Persona%20Evaluation%20and%20Testing%20Infrastructure%20Does%20the%20Garden%20Need.html) — What testing infrastructure would validate persona behavioral claims
+- [\[\[How Should Persona Node Changes Sync to Agent Configuration Files\]\]](inquiries/How%20Should%20Persona%20Node%20Changes%20Sync%20to%20Agent%20Configuration%20Files.html) — How do persona design changes flow downstream to agent files, and how do we detect drift?
 
 ### Decisions
 
 Recorded choices with reasoning.
 
 - [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — The foundational decision to use typed forms and predicates over tags, RAG, or databases
+- [\[\[Persona Nodes as Design Authority for Agent Configuration\]\]](decisions/Persona%20Nodes%20as%20Design%20Authority%20for%20Agent%20Configuration.html) — The persona is the knowledge artifact; the agent file is its rendition
 
 ### Infrastructure Glosses
 

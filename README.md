@@ -2,7 +2,7 @@
 
 A [garden patch](glosses/Garden%20Patch%20as%20Composable%20Knowledge%20Fragment.html) exploring how AI agent personas are designed, activated, and governed — and what happens when the design document becomes a first-class knowledge node rather than a configuration file.
 
-## Why a Persona Garden?
+## Why a Persona Garden Patch?
 
 Agent systems need personas. Most approaches treat them as configuration: a system prompt, a YAML file, a role string. The persona is consumed by the runtime and invisible to everyone else.
 
@@ -24,14 +24,14 @@ This distinction matters because it makes persona design auditable, composable, 
 - 6 models mapping the persona design landscape
 - 5 patterns capturing what works and what fails
 - 2 glosses defining key concepts
-- 2 open inquiries about portability and evaluation
+- 3 open inquiries about portability, evaluation, and persona-to-agent sync
 
 **11 infrastructure nodes** (grafted) — the garden system itself:
 - How to read garden patches, nodes, and predicates
 - What [precincts](glosses/Garden%20Precinct.html), [structural contracts](glosses/Structural%20Contract%20as%20Form%20Type%20Agreement.html), and [ghost links](glosses/Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html) are
 - Why this architecture exists
 
-**1 foundational decision** (grafted) — Deep Context as an Architecture for Captured Reasoning
+**2 decisions** (grafted) — Deep Context as an Architecture for Captured Reasoning, and Persona Nodes as Design Authority for Agent Configuration
 
 **2 knowledge domains** — Agentic Architecture and Deep Context Architecture
 
