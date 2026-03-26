@@ -12,26 +12,38 @@ The eight personas here — from estate-level strategist to specialized garden w
 
 This distinction matters because it makes persona design auditable, composable, and evolvable through the same mechanisms that govern any other knowledge node: [structural contracts](glosses/Structural%20Contract%20as%20Form%20Type%20Agreement.html), status stages, typed predicates, and peer review.
 
+## Garden Patches as Conversation
+
+A garden patch is not just a portable fork of a source garden — it is a record of intellectual conversation. This patch grew from an ongoing dialogue between Christopher Allen and Peter Kaminski about how AI agent personas should work.
+
+Peter brought 27 reflection personas he designed for his course — diverse cultural perspectives, deliberately not "a cheap pastiche thing." Victoria Gracia, one of Peter's course stewards, independently built compound personas with full cultural context documents. Christopher brought a decade of work on identity, trust, and typed knowledge systems. The conversation produced a shared conviction: persona should become a first-class knowledge form, not remain a configuration file.
+
+Some nodes in a garden patch belong to the source garden — they existed before the conversation and will persist after it. Others belong to the conversation itself. The eight persona nodes here started as patch-native explorations and were adopted by the source garden. But in the [\[\[IFP garden patch\]\]](https://christophera.github.io/ifp/garden/) — the first garden patch, placed alongside Peter's Inter-Face Protocol specifications — patch-native nodes like "Gossip as Social Sensing Filter" and "Conversation Temperature as Protocol Cadence Spectrum" belong to neither garden alone. They emerged from dialogue and the patch is their home.
+
+This raises an [\[\[open question\]\]](inquiries/Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html): when a node is born in a patch, does it stay there or get adopted upstream? And what about nodes that belong to the conversation between gardeners rather than to any single garden?
+
 ## What's in This Patch
 
 **8 persona design documents** (patch-native⊙) — the operational architecture for a multi-agent knowledge estate:
-- Orchestrators: Seneschal, Groundskeeper, Chancellor
-- Boundary guardian: Chatelaine
-- General worker: Gardener
-- Specialized workers: Cultivator, Forager, Pruner
+- Orchestrators: [\[\[Seneschal Persona|Seneschal\]\]](personas/Seneschal%20Persona.html), [\[\[Groundskeeper Persona|Groundskeeper\]\]](personas/Groundskeeper%20Persona.html), [\[\[Chancellor Persona|Chancellor\]\]](personas/Chancellor%20Persona.html)
+- Boundary guardian: [\[\[Chatelaine Persona|Chatelaine\]\]](personas/Chatelaine%20Persona.html)
+- General worker: [\[\[Gardener Persona|Gardener\]\]](personas/Gardener%20Persona.html)
+- Specialized workers: [\[\[Cultivator Persona|Cultivator\]\]](personas/Cultivator%20Persona.html), [\[\[Forager Persona|Forager\]\]](personas/Forager%20Persona.html), [\[\[Pruner Persona|Pruner\]\]](personas/Pruner%20Persona.html)
 
-**15 research-extracted nodes** (grafted from source garden) — the analytical framework:
+**16 research-extracted nodes** (grafted from source garden) — the analytical framework:
 - 6 models mapping the persona design landscape
 - 5 patterns capturing what works and what fails
 - 2 glosses defining key concepts
-- 3 open inquiries about portability, evaluation, and persona-to-agent sync
+- 4 open inquiries about portability, evaluation, persona-to-agent sync, and patch-native node lifecycle
 
 **11 infrastructure nodes** (grafted) — the garden system itself:
 - How to read garden patches, nodes, and predicates
 - What [precincts](glosses/Garden%20Precinct.html), [structural contracts](glosses/Structural%20Contract%20as%20Form%20Type%20Agreement.html), and [ghost links](glosses/Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html) are
 - Why this architecture exists
 
-**2 decisions** (grafted) — Deep Context as an Architecture for Captured Reasoning, and Persona Nodes as Design Authority for Agent Configuration
+**2 decisions** (grafted) — [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html), and [\[\[Persona Nodes as Design Authority for Agent Configuration\]\]](decisions/Persona%20Nodes%20as%20Design%20Authority%20for%20Agent%20Configuration.html)
+
+**1 scenario** (grafted) — [\[\[Thousand Gardens with Autonomous Trust\]\]](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html)
 
 **2 knowledge domains** — Agentic Architecture and Deep Context Architecture
 
@@ -72,7 +84,7 @@ Each node belongs to a **form type** that determines its [structural contract](g
 | [\[\[**Decision**\]\]](forms/Decision%20Form.html) | "Why did we choose this over alternatives?" | [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) |
 | [\[\[**Domain**\]\]](forms/Domain%20Form.html) | "What knowledge area is this?" | [\[\[Agentic Architecture\]\]](domains/Agentic%20Architecture.html) |
 
-All [\[\[form type definitions\]\]](forms/index.html), [\[\[personas\]\]](personas/index.html), [\[\[models\]\]](models/index.html), [\[\[glosses\]\]](glosses/index.html), [\[\[patterns\]\]](patterns/index.html), [\[\[inquiries\]\]](inquiries/index.html), and [\[\[decisions\]\]](decisions/index.html) are browsable by section.
+All [\[\[form type definitions\]\]](forms/index.html), [\[\[personas\]\]](personas/index.html), [\[\[models\]\]](models/index.html), [\[\[glosses\]\]](glosses/index.html), [\[\[patterns\]\]](patterns/index.html), [\[\[inquiries\]\]](inquiries/index.html), [\[\[decisions\]\]](decisions/index.html), and [\[\[scenarios\]\]](scenarios/index.html) are browsable by section.
 
 ### Predicate Links
 
@@ -108,4 +120,4 @@ This garden patch was hand-assembled with the help of scripts that convert Obsid
 
 **Longer-term vision**: Thousands of gardens flourishing independently, each a personal knowledge system whose nodes are content-addressable — identified by what they contain, not where they are stored. Garden patches become portable, self-contained objects that carry their own permissions and provenance. Gardeners share nodes peer-to-peer with full attribution, make assertions about each other's content, and use [elision](https://developer.blockchaincommons.com/envelope/elision/) to selectively redact sensitive material while cryptographic proofs verify the whole remains intact. [Progressive trust](https://developer.blockchaincommons.com/progressive-trust/) governs how gardens deepen relationships — from anonymous exchange through verified collaboration. [Gordian Envelope](https://developer.blockchaincommons.com/envelope/) provides the infrastructure: autonomous cryptographic objects that work offline, across time, without central servers — infrastructure you control rather than infrastructure that controls you. The result is not a platform but an ecosystem where independent thinkers can cooperate, collaborate, fork, merge, attribute, and build on each other's reasoning while preserving human agency, dignity, and the right to exit.
 
-That ecosystem does not exist yet. This patch is a proof of concept for what it would produce. For the full scenario, see [[Thousand Gardens with Autonomous Trust]]↑.
+That ecosystem does not exist yet. This patch is a proof of concept for what it would produce. For the full scenario, see [\[\[Thousand Gardens with Autonomous Trust\]\]](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html).

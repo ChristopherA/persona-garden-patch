@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 32 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
+**8 patch-native⊙ nodes · 34 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
 
 ---
 
@@ -65,6 +65,7 @@ Open questions about persona architecture.
 - [\[\[Does the Garden Persona Architecture Need a Portability Layer\]\]](inquiries/Does%20the%20Garden%20Persona%20Architecture%20Need%20a%20Portability%20Layer.html) — Whether and how persona designs should be portable across agent frameworks
 - [\[\[What Persona Evaluation and Testing Infrastructure Does the Garden Need\]\]](inquiries/What%20Persona%20Evaluation%20and%20Testing%20Infrastructure%20Does%20the%20Garden%20Need.html) — What testing infrastructure would validate persona behavioral claims
 - [\[\[How Should Persona Node Changes Sync to Agent Configuration Files\]\]](inquiries/How%20Should%20Persona%20Node%20Changes%20Sync%20to%20Agent%20Configuration%20Files.html) — How do persona design changes flow downstream to agent files, and how do we detect drift?
+- [\[\[Where Do Patch-Native Nodes Live After They Grow\]\]](inquiries/Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html) — When a node is born in a patch, does it stay there or get adopted — and what if it belongs to the conversation?
 
 ### Decisions
 
@@ -95,13 +96,17 @@ Nodes explaining the garden system itself.
 - [\[\[Agentic Architecture\]\]](domains/Agentic%20Architecture.html) — How autonomous agents are designed, configured, coordinated, and governed
 - [\[\[Deep Context Architecture\]\]](domains/Deep%20Context%20Architecture.html) — The knowledge system architecture: typed forms, predicates, precincts
 
+### Scenarios
+
+- [\[\[Thousand Gardens with Autonomous Trust\]\]](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html) — What happens when gardens become autonomous cryptographic objects that trust each other progressively
+
 ---
 
 ## Form Type Definitions
 
 35 structural contracts grafted from the source garden. See [forms/](forms/) for the full set.
 
-Core forms used in this patch: [\[\[Persona Form\]\]](forms/Persona%20Form.html), [\[\[Model Form\]\]](forms/Model%20Form.html), [\[\[Pattern Form\]\]](forms/Pattern%20Form.html), [\[\[Gloss Form\]\]](forms/Gloss%20Form.html), [\[\[Inquiry Form\]\]](forms/Inquiry%20Form.html), [\[\[Decision Form\]\]](forms/Decision%20Form.html), [\[\[Domain Form\]\]](forms/Domain%20Form.html)
+Core forms used in this patch: [\[\[Persona Form\]\]](forms/Persona%20Form.html), [\[\[Model Form\]\]](forms/Model%20Form.html), [\[\[Pattern Form\]\]](forms/Pattern%20Form.html), [\[\[Gloss Form\]\]](forms/Gloss%20Form.html), [\[\[Inquiry Form\]\]](forms/Inquiry%20Form.html), [\[\[Decision Form\]\]](forms/Decision%20Form.html), [\[\[Domain Form\]\]](forms/Domain%20Form.html), [\[\[Scenario Form\]\]](forms/Scenario%20Form.html)
 
 Status stages: [\[\[Seed Stage\]\]](forms/Seed%20Stage.html), [\[\[Growing Stage\]\]](forms/Growing%20Stage.html), [\[\[Evergreen Stage\]\]](forms/Evergreen%20Stage.html)
 

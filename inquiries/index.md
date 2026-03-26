@@ -8,4 +8,6 @@ Open questions worth investigating, with possible directions.
 
 **[What Persona Evaluation and Testing Infrastructure Does the Garden Need](What%20Persona%20Evaluation%20and%20Testing%20Infrastructure%20Does%20the%20Garden%20Need.html)** — What would it mean to test whether a garden persona is working?
 
-*3 nodes in this section.*
+**[Where Do Patch-Native Nodes Live After They Grow](Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html)** — When a node is born in a patch, does it stay there or get adopted — and what if it belongs to the conversation?
+
+*4 nodes in this section.*
