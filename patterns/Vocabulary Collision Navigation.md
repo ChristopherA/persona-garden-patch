@@ -5,10 +5,10 @@ brief_summary: "When multiple valid naming traditions converge on the same conce
 tagline: "Three strategies for when naming traditions collide — and why vocabulary diversity is a feature"
 ---
 
-- is_a::[Pattern Form](../forms/Pattern%20Form.html)
-- has_status::[Seed Stage](../forms/Seed%20Stage.html)
-- in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)
-- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
+- is_a::[[Pattern Form]]
+- has_status::[[Seed Stage]]
+- in_domain::[[Deep Context Architecture]]
+- in_precinct::[[Garden Precinct]]
 
 # Vocabulary Collision Navigation
 
@@ -55,21 +55,21 @@ The pattern predicts that attempts to create a "shared naming convention" for th
 ## Sources
 
 - Seneschal Session 109b (2026-03-29) — observation from Thursday meeting prep group
-- [Six Approaches to Persona Architecture — Synthesis](../models/Six%20Approaches%20to%20Persona%20Architecture%20—%20Synthesis.html) — Axis 4 (commons potential) analyzes interoperability across vocabularies
-- [Naming Carries Relational Weight](../convictions/Naming%20Carries%20Relational%20Weight.html) — the conviction that naming is architectural, not decorative
-- [Feudal English Over Latin or Corporate Terms](../decisions/Feudal%20English%20Over%20Latin%20or%20Corporate%20Terms.html) — the estate's own navigation of this collision
+- [[Six Approaches to Persona Architecture — Synthesis]] — Axis 4 (commons potential) analyzes interoperability across vocabularies
+- [[Naming Carries Relational Weight]] — the conviction that naming is architectural, not decorative
+- [[English Stewardship Vocabulary Over Latin or Corporate Terms]] — the estate's own navigation of this collision
 
 ## Relations
 
-- relates_to::[Naming Carries Relational Weight](../convictions/Naming%20Carries%20Relational%20Weight.html)
+- relates_to::[[Naming Carries Relational Weight]]
   - The conviction that makes vocabulary collision high-stakes — if naming were decorative, convergence would cost nothing
-- relates_to::[Feudal English Over Latin or Corporate Terms](../decisions/Feudal%20English%20Over%20Latin%20or%20Corporate%20Terms.html)
+- relates_to::[[English Stewardship Vocabulary Over Latin or Corporate Terms]]
   - The estate's own instance of choosing one strategy (semantically rich loaded tradition) over another (neutral precision)
-- relates_to::[Gracia (2026) Uni-Versum Personal Knowledge Architecture](../citations/Gracia%20%282026%29%20Uni-Versum%20Personal%20Knowledge%20Architecture/Gracia%20%282026%29%20Uni-Versum%20Personal%20Knowledge%20Architecture.html)
+- relates_to::[[Gracia (2026) Uni-Versum Personal Knowledge Architecture]]
   - The Latin precision strategy in full implementation
-- relates_to::[Kaminski (2026) Reflection Personas](../citations/Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas.html)
+- relates_to::[[Kaminski (2026) Reflection Personas]]
   - The analytical-lens strategy that sidesteps naming through framework grounding
-- relates_to::[Six Approaches to Persona Architecture — Synthesis](../models/Six%20Approaches%20to%20Persona%20Architecture%20—%20Synthesis.html)
+- relates_to::[[Six Approaches to Persona Architecture — Synthesis]]
   - The synthesis that first mapped how these vocabularies relate without converging
-- relates_to::[[Knowledge Estate as Peer Commons Architecture]]↑
+- relates_to::[[Knowledge Estate as Peer Commons Architecture]]
   - The commons architecture within which vocabulary translation operates

@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 51 grafted nodes · 35 form definitions grafted · 325 upstream↑ nodes documented**
+**8 patch-native⊙ nodes · 61 grafted nodes · 35 form definitions grafted · 315 upstream↑ nodes documented**
 
 ---
 
@@ -70,7 +70,8 @@ Open questions about persona architecture.
 - [\[\[Does the Garden Persona Architecture Need a Portability Layer\]\]](inquiries/Does%20the%20Garden%20Persona%20Architecture%20Need%20a%20Portability%20Layer.html) — Whether and how persona designs should be portable across agent frameworks
 - [\[\[What Persona Evaluation and Testing Infrastructure Does the Garden Need\]\]](inquiries/What%20Persona%20Evaluation%20and%20Testing%20Infrastructure%20Does%20the%20Garden%20Need.html) — What testing infrastructure would validate persona behavioral claims
 - [\[\[How Should Persona Node Changes Sync to Agent Configuration Files\]\]](inquiries/How%20Should%20Persona%20Node%20Changes%20Sync%20to%20Agent%20Configuration%20Files.html) — How do persona design changes flow downstream to agent files, and how do we detect drift?
-- [\[\[Where Do Patch-Native Nodes Live After They Grow\]\]](inquiries/Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html) — When a node is born in a patch, does it stay there or get adopted — and what if it belongs to the conversation?
+- [\[\[Where Do Patch-Native Nodes Live After They Grow\]\]](inquiries/Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html)
+- [\[\[Newcomer Alienation in Growing Shared Languages\]\]](inquiries/Newcomer%20Alienation%20in%20Growing%20Shared%20Languages.html) — When shared vocabulary becomes a barrier rather than a bridge — the progressive canonization tension — When a node is born in a patch, does it stay there or get adopted — and what if it belongs to the conversation?
 
 ### Decisions
 
@@ -78,13 +79,17 @@ Recorded choices with reasoning.
 
 - [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — The foundational decision to use typed forms and predicates over tags, RAG, or databases
 - [\[\[Persona Nodes as Design Authority for Agent Configuration\]\]](decisions/Persona%20Nodes%20as%20Design%20Authority%20for%20Agent%20Configuration.html) — The persona is the knowledge artifact; the agent file is its rendition
-- [\[\[Feudal English Over Latin or Corporate Terms\]\]](decisions/Feudal%20English%20Over%20Latin%20or%20Corporate%20Terms.html) — Feudal English over Latin precision — stewardship and sovereignty over management and control
+- [\[\[English Stewardship Vocabulary Over Latin or Corporate Terms\]\]](decisions/English%20Stewardship%20Vocabulary%20Over%20Latin%20or%20Corporate%20Terms.html) — English stewardship vocabulary over Latin precision — tending and sovereignty over management and control
+- [\[\[Knowledge Estate as Peer Commons Architecture\]\]](decisions/Knowledge%20Estate%20as%20Peer%20Commons%20Architecture.html) — The estate metaphor: personal knowledge as something tended and passed forward
+- [\[\[Subtitle Anchoring for Persona Activation\]\]](decisions/Subtitle%20Anchoring%20for%20Persona%20Activation.html) — Archetype subtitles activate pretraining patterns that stewardship role names alone don't reach
+- [\[\[Scope-Encoded Naming as Authority Boundary\]\]](decisions/Scope-Encoded%20Naming%20as%20Authority%20Boundary.html) — Two-word prefixes (Estate, Garden, Household) encode delegated authority boundaries
 
 ### Convictions
 
 Core value commitments grounding the architecture.
 
 - [\[\[Naming Carries Relational Weight\]\]](convictions/Naming%20Carries%20Relational%20Weight.html) — Every name teaches the model — naming is architecture, not labeling
+- [\[\[Sovereignty Is Selective Permeability Not Absolute Control\]\]](convictions/Sovereignty%20Is%20Selective%20Permeability%20Not%20Absolute%20Control.html) — Sovereignty is a membrane, not a wall — selective permeability enables exchange while protecting autonomy
 
 ### Infrastructure Glosses
 
@@ -102,6 +107,21 @@ Nodes explaining the garden system itself.
 - [\[\[Neobooks as Composable Knowledge Objects\]\]](glosses/Neobooks%20as%20Composable%20Knowledge%20Objects.html) — The broader vision of knowledge objects that can be assembled and disassembled
 - [\[\[Principal Authority as Agency Law for Digital Identity\]\]](glosses/Principal%20Authority%20as%20Agency%20Law%20for%20Digital%20Identity.html) — Agency law framework for understanding delegation and authority
 - [\[\[Deep Context as Shared Language\]\]](glosses/Deep%20Context%20as%20Shared%20Language.html) — When practitioners share deep context, a single phrase invokes an entire framework of understanding
+- [\[\[Shared Language Community\]\]](glosses/Shared%20Language%20Community.html) — A group whose shared vocabulary enables compressed communication — and the risks when that vocabulary excludes newcomers
+- [\[\[Digital Garden as Growth Ethos\]\]](glosses/Digital%20Garden%20as%20Growth%20Ethos.html) — The wiki-gardening tradition: knowledge as something cultivated, not constructed
+
+### Boundaries
+
+Architectural constraints that govern how the system operates.
+
+- [\[\[Delegated Decision Authority Spectrum\]\]](boundaries/Delegated%20Decision%20Authority%20Spectrum.html) — How authority flows from principal through stewards, orchestrators, and workers
+- [\[\[Three-Layer Publication Membrane\]\]](boundaries/Three-Layer%20Publication%20Membrane.html) — How garden content moves from private to patch to public
+
+### Principles
+
+Guiding commitments that shape architectural decisions.
+
+- [\[\[Living Documents Over Static Publications\]\]](principles/Living%20Documents%20Over%20Static%20Publications.html) — Documents branch, diverge, merge, and evolve — they don't converge to a final canonical form
 
 ### Knowledge Domains
 

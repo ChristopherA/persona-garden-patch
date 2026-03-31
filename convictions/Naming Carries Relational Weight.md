@@ -5,10 +5,10 @@ brief_summary: "Naming in typed-predicate architectures is an architectural choi
 tagline: "Every name teaches the model — naming is architecture, not labeling"
 ---
 
-- is_a::[Conviction Form](../forms/Conviction%20Form.html)
-- has_status::[Seed Stage](../forms/Seed%20Stage.html)
-- in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)
-- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
+- is_a::[[Conviction Form]]
+- has_status::[[Seed Stage]]
+- in_domain::[[Deep Context Architecture]]
+- in_precinct::[[Garden Precinct]]
 
 # Naming Carries Relational Weight
 
@@ -28,42 +28,42 @@ Allen chose "self-sovereign" anyway, because it was the only phrase that capture
 
 The naming risk was real and the naming choice was right. The dangerous connotation had to be carried because the concept required it.
 
-The estate's own naming follows the same logic. The choice of feudal English — estate, steward, gardener, groundskeeper, chamberlain — imports a semantic field of stewardship and generational continuity that the architecture requires. "Vault" (Obsidian's default term) suggests a container to lock things in. "Workspace" suggests a tool. Neither captures the relationship of a person to their accumulated knowledge as something they tend and pass forward. The feudal vocabulary carries its own risks (hierarchy, inaccessibility), but those risks are worth taking because the semantic field is correct.
+The estate's own naming follows the same logic. The choice of English stewardship vocabulary — estate, steward, gardener, groundskeeper, chamberlain — imports a semantic field of tending and generational continuity that the architecture requires. These terms descend from pre-enclosure English land management, when commons governance worked and stewards tended shared resources under mutual obligation — traditions themselves shaped by Roman administrative practices that remained in Britain after the legions withdrew. "Vault" (Obsidian's default term) suggests a container to lock things in. "Workspace" suggests a tool. Neither captures the relationship of a person to their accumulated knowledge as something they tend and pass forward. The stewardship vocabulary carries its own risks (feudal associations, inaccessibility), but those risks are worth taking because the semantic field is correct.
 
-In typed-predicate systems specifically, this conviction has technical force. [The Persona Selection Model](../models/The%20Persona%20Selection%20Model.html) (Anthropic, 2026) shows that invented role names like "Groundskeeper" activate weaker pretrained patterns than established professional roles like "information architect." Naming maps directly to which behavioral patterns are activated. A poorly chosen name does not just mislead readers — it misroutes the model.
+In typed-predicate systems specifically, this conviction has technical force. [[The Persona Selection Model]] (Anthropic, 2026) shows that invented role names like "Groundskeeper" activate weaker pretrained patterns than established professional roles like "information architect." Naming maps directly to which behavioral patterns are activated. A poorly chosen name does not just mislead readers — it misroutes the model.
 
 ## Implications
 
 - **For the deep context architecture**: Every form type name, every predicate name, every domain name is a semantic commitment. Before introducing a new term, ask: what relational field does this activate? What does this name teach the model about how this thing relates to everything else?
 - **For persona design**: Role names activate pretraining patterns. Naming a role "Groundskeeper" imports the semantic field of a person who tends a living system — maintenance, growth, judgment about what to cultivate and what to prune. That field shapes behavioral inference whether or not the persona definition states it explicitly.
-- **For the least authority principle**: [[Allen (2023) Least and Necessary Design Patterns]]↑ grounds least authority in the observation that privileges form a web of transitive authority. Names are the same: you cannot name something without inheriting a transitive web of associations. Naming with care is a form of architectural least-authority — take only the associations you need, accept the costs of the ones you can't avoid.
+- **For the least authority principle**: [[Allen (2023) Least and Necessary Design Patterns]] grounds least authority in the observation that privileges form a web of transitive authority. Names are the same: you cannot name something without inheriting a transitive web of associations. Naming with care is a form of architectural least-authority — take only the associations you need, accept the costs of the ones you can't avoid.
 - **For vocabulary lifecycle**: A garden that uses precise names for its predicates and form types maintains a shared language community. Imprecise naming produces predicate drift — `related_to` proliferating because the more specific predicates were never clearly named.
 
 ## Sources
 
-- Allen, C. (2016). [[Allen (2016) The Path to Self-Sovereign Identity]]↑ — naming SSI knowing the sovereign citizen risk
-- Allen, C. (2023). [[Allen (2023) Origins of Self-Sovereign Identity]]↑ — retrospective on why "sovereign" was necessary despite the hazard
-- Allen, C. (2023). [[Allen (2023) Least and Necessary Design Patterns]]↑ — transitive authority webs as analog for naming's semantic transitivity
-- [The Persona Selection Model](../models/The%20Persona%20Selection%20Model.html) — empirical evidence that role names activate different pretraining patterns
-- [Deep Context Graph Vocabulary](../glosses/Deep%20Context%20Graph%20Vocabulary.html) — the vocabulary that naming choices instantiate
+- Allen, C. (2016). [[Allen (2016) The Path to Self-Sovereign Identity]] — naming SSI knowing the sovereign citizen risk
+- Allen, C. (2023). [[Allen (2023) Origins of Self-Sovereign Identity]] — retrospective on why "sovereign" was necessary despite the hazard
+- Allen, C. (2023). [[Allen (2023) Least and Necessary Design Patterns]] — transitive authority webs as analog for naming's semantic transitivity
+- [[The Persona Selection Model]] — empirical evidence that role names activate different pretraining patterns
+- [[Deep Context Graph Vocabulary]] — the vocabulary that naming choices instantiate
 
 ## Relations
 
-- relates_to::[[Values Precede Technical Decisions]]↑
+- relates_to::[[Values Precede Technical Decisions]]
   - Naming is a values-first technical decision — what a thing is called encodes what we believe it is
-- relates_to::[[Allen (2023) Least and Necessary Design Patterns]]↑
+- relates_to::[[Allen (2023) Least and Necessary Design Patterns]]
   - Least authority's transitive authority principle has a direct analog in naming: every name imports a transitive web of associations
-- relates_to::[The Persona Selection Model](../models/The%20Persona%20Selection%20Model.html)
+- relates_to::[[The Persona Selection Model]]
   - The PSM demonstrates that role names activate different pretrained patterns, making naming an architectural choice with measurable downstream effects
-- relates_to::[[Shared Language Community]]↑
+- relates_to::[[Shared Language Community]]
   - Naming choices are the primary mechanism by which a shared language community coheres — or fragments
-- relates_to::[[Vocabulary Lifecycle Through Tending]]↑
+- relates_to::[[Vocabulary Lifecycle Through Tending]]
   - The conviction that names carry weight implies that vocabulary needs tending — precision maintained over time, not just at initial definition
-- relates_to::[Feudal English Over Latin or Corporate Terms](../decisions/Feudal%20English%20Over%20Latin%20or%20Corporate%20Terms.html)
+- relates_to::[[English Stewardship Vocabulary Over Latin or Corporate Terms]]
   - The decision that instantiates this conviction for the estate's own naming
-- relates_to::[Vocabulary Collision Navigation](../patterns/Vocabulary%20Collision%20Navigation.html)
+- relates_to::[[Vocabulary Collision Navigation]]
   - The pattern for when multiple naming traditions converge — this conviction explains why the collision is high-stakes
-- relates_to::[[Subtitle Anchoring for Persona Activation]]↑
+- relates_to::[[Subtitle Anchoring for Persona Activation]]
   - Subtitle anchoring applies this conviction to system prompt design: archetype names activate specific behavioral clusters
-- relates_to::[[Scope-Encoded Naming as Authority Boundary]]↑
+- relates_to::[[Scope-Encoded Naming as Authority Boundary]]
   - Scope-encoded prefixes carry structural information about authority boundaries — naming as architecture in practice

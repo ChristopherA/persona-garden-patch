@@ -5,10 +5,10 @@ brief_summary: "Cross-comparison of six approaches to AI persona architecture: L
 tagline: "Six approaches to agent identity — what they share, where they diverge, and how they might interoperate"
 ---
 
-- is_a::[Model Form](../forms/Model%20Form.html)
-- has_status::[Seed Stage](../forms/Seed%20Stage.html)
-- in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)
-- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
+- is_a::[[Model Form]]
+- has_status::[[Seed Stage]]
+- in_domain::[[Deep Context Architecture]]
+- in_precinct::[[Garden Precinct]]
 
 # Six Approaches to Persona Architecture — Synthesis
 
@@ -69,7 +69,7 @@ Authority — who decides, who controls, who owns the output — is where the ap
 
 **Uni-Versum** locates authority at the "nos" — the human perspective center. Agents operate under fidelis-est (allegiance to a specific human), autonomia (an evolving trust contract defining what the agent can do), and diploma (trust credential for inter-system agents). The most fully articulated authority model: it distinguishes allegiance, delegation, and federation as separate concerns.
 
-**The self-sovereign estate** locates authority in the principal — the human who owns the estate. Every agent operates under delegated authority traceable to the principal's authorization. Self-sovereign identity principles govern: authority is explicit, bounded, and follows the [[Allen (2023) Least and Necessary Design Patterns|least authority principle]]↑ — each agent receives only the authority it needs for its commissioned scope, but enough authority to do the work without hitting barriers. The commission architecture makes delegation visible: every worker knows who commissioned the work and what authority it operates under.
+**The self-sovereign estate** locates authority in the principal — the human who owns the estate. Every agent operates under delegated authority traceable to the principal's authorization. Self-sovereign identity principles govern: authority is explicit, bounded, and follows the [[Allen (2023) Least and Necessary Design Patterns|least authority principle]] — each agent receives only the authority it needs for its commissioned scope, but enough authority to do the work without hitting barriers. The commission architecture makes delegation visible: every worker knows who commissioned the work and what authority it operates under.
 
 Uni-Versum's fidelis-est/autonomia/diploma and the estate's delegated authority spectrum converge on the same structural insight from different directions. Both distinguish between loyalty (who do you serve?), capability (what can you do?), and trust (how much latitude do you have?). The vocabulary differs but the structure aligns — an uncoordinated convergence that emerged from both approaches taking self-sovereignty seriously as an organizing principle. This convergence is itself evidence that self-sovereign identity principles generate consistent architectural patterns regardless of surface vocabulary.
 
@@ -89,7 +89,7 @@ The estate has also absorbed design influence from these interactions. Kaminski 
 
 **The practical question for Thursday**: How do we publish our patches so that we can cross-reference each other? Each participant's system has its own publication mechanism — the estate uses garden patches projected through a publishing pipeline; Uni-Versum uses a structured website with formal semantic markup; the Reflection Personas exist as shared files. The immediate work is making these publications discoverable and cross-referenceable, not converging on a shared format. Citations, glosses, and seeds are the typed connections that bridge between vocabularies without merging them.
 
-**The deeper question**: Vocabulary diversity is not a problem to solve but a feature to preserve. Victoria's Latin precision, the estate's feudal-English heritage, Peter and Victoria's analytical-lens naming — these choices encode design decisions, intellectual heritage, and values. A commons that flattens this diversity into a shared ontology destroys the thing it was meant to cultivate. The productive connection is mutual intelligibility: each system's vocabulary becomes legible to the others through glosses, citations, and typed cross-references, without requiring adoption.
+**The deeper question**: Vocabulary diversity is not a problem to solve but a feature to preserve. Victoria's Latin precision, the estate's English stewardship heritage, Peter and Victoria's analytical-lens naming — these choices encode design decisions, intellectual heritage, and values. A commons that flattens this diversity into a shared ontology destroys the thing it was meant to cultivate. The productive connection is mutual intelligibility: each system's vocabulary becomes legible to the others through glosses, citations, and typed cross-references, without requiring adoption.
 
 The self-sovereign framing suggests a middle path between pure gift exchange and formal governance: each sovereign system maintains its own governance internally, while the commons operates under minimal shared norms that emerge from practice. The norms so far: credit through citation (already happening), translate rather than merge vocabularies (already happening), preserve each participant's right to decline, modify, or reinterpret anything received from the commons.
 
@@ -97,7 +97,7 @@ The self-sovereign framing suggests a middle path between pure gift exchange and
 
 ### Specification Depth
 
-The approaches span the full [Persona Spectrum](The%20Persona%20Spectrum%20from%20Role%20Label%20to%20Soul%20Document.html): Level 1 (Lehmann's five roles), Level 2-3 (the estate's operational personas and nyk's historical-thinker specifications with declared blind spots), Level 3 (the SOUL.md behavioral decision document pattern), Level 5 (Anthropic's soul document shaping Claude's character at the weights level). Kaminski and Gracia's personas are deliberately thin (100-250 words each) — their addenda argue that frameworks matter more than specification depth. Uni-Versum defines an agent taxonomy but not individual agent specifications.
+The approaches span the full [[The Persona Spectrum from Role Label to Soul Document|Persona Spectrum]]: Level 1 (Lehmann's five roles), Level 2-3 (the estate's operational personas and nyk's historical-thinker specifications with declared blind spots), Level 3 (the SOUL.md behavioral decision document pattern), Level 5 (Anthropic's soul document shaping Claude's character at the weights level). Kaminski and Gracia's personas are deliberately thin (100-250 words each) — their addenda argue that frameworks matter more than specification depth. Uni-Versum defines an agent taxonomy but not individual agent specifications.
 
 The finding across approaches: specification depth and persona effectiveness are not linearly related. Level 2-3 specifications with framework grounding outperform Level 4 specifications with identity assertions only.
 
@@ -123,50 +123,50 @@ The commons question — how these approaches interoperate without convergence �
 
 ## Sources
 
-- [itsolelehmann (2026) LLM Council for Decision Quality](../citations/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality.html) — adversarial council approach
-- [nyk_builderz (2026) Council of High Intelligence Structured Disagreement](../citations/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement.html) — historical-thinker deliberation
-- [Kaminski (2026) Reflection Personas](../citations/Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas.html) — analytical-lens approach
-- [Anthropic (2026) The Persona Selection Model](../citations/Anthropic%20%282026%29%20The%20Persona%20Selection%20Model/Anthropic%20%282026%29%20The%20Persona%20Selection%20Model.html) — mechanistic theory
-- [Gracia (2026) Uni-Versum Personal Knowledge Architecture](../citations/Gracia%20%282026%29%20Uni-Versum%20Personal%20Knowledge%20Architecture/Gracia%20%282026%29%20Uni-Versum%20Personal%20Knowledge%20Architecture.html) — formal knowledge architecture
-- [The Self-Sovereign Estate Persona Architecture](The%20Self-Sovereign%20Estate%20Persona%20Architecture.html) — self-sovereign estate operational approach
+- [[itsolelehmann (2026) LLM Council for Decision Quality]] — adversarial council approach
+- [[nyk_builderz (2026) Council of High Intelligence Structured Disagreement]] — historical-thinker deliberation
+- [[Kaminski (2026) Reflection Personas]] — analytical-lens approach
+- [[Anthropic (2026) The Persona Selection Model]] — mechanistic theory
+- [[Gracia (2026) Uni-Versum Personal Knowledge Architecture]] — formal knowledge architecture
+- [[The Self-Sovereign Estate Persona Architecture]] — self-sovereign estate operational approach
 
 ## Relations
 
-- relates_to::[Persona Form](../forms/Persona%20Form.html)
+- relates_to::[[Persona Form]]
   - All six approaches address some version of the question the Persona Form answers: who is this agent and how does it behave?
 
-- relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
+- relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]
   - The inquiry that first mapped the design space these six approaches occupy.
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[[Structured Disagreement Through Persona Review]]
   - The estate pattern that connects to the deliberation approaches (Lehmann, nyk).
 
-- relates_to::[The Self-Sovereign Estate Persona Architecture](The%20Self-Sovereign%20Estate%20Persona%20Architecture.html)
+- relates_to::[[The Self-Sovereign Estate Persona Architecture]]
   - The estate's self-description, written as a comparable 6th approach for this synthesis.
 
-- relates_to::[[Knowledge Estate as Peer Commons Architecture]]↑
+- relates_to::[[Knowledge Estate as Peer Commons Architecture]]
   - The commons question explored in Axis 4 is the live expression of this architectural decision.
 
-- relates_to::[[Allen (2023) Least and Necessary Design Patterns]]↑
+- relates_to::[[Allen (2023) Least and Necessary Design Patterns]]
   - The least/necessary authority framework surfaces in Axis 3 as the convergence between Uni-Versum's autonomia and the estate's delegated authority spectrum.
 
-- relates_to::[Vocabulary Collision Navigation](../patterns/Vocabulary%20Collision%20Navigation.html)
+- relates_to::[[Vocabulary Collision Navigation]]
   - The pattern underlying Axis 4's observation that vocabulary diversity is a feature to preserve, not a problem to solve
 
-- relates_to::[[Three-Layer Publication Membrane]]↑
+- relates_to::[[Three-Layer Publication Membrane]]
   - The practical question "how do we publish patches?" operates at layer 3 of this membrane model
 
-- relates_to::[[Subtitle Anchoring for Persona Activation]]↑
+- relates_to::[[Subtitle Anchoring for Persona Activation]]
   - Axis 2's discussion of archetype-anchored naming as the estate's diversity mechanism
 
-- relates_to::[[Vantage Points as Organizational Topography]]↑
+- relates_to::[[Vantage Points as Organizational Topography]]
   - One face of the Solution Box meta-model; the synthesis operates at the strategy vantage point
 
-- relates_to::[[The Solution Box as Four-Faced Meta-Model]]↑
+- relates_to::[[The Solution Box as Four-Faced Meta-Model]]
   - The synthesis itself is a Solution Box exercise — examining six approaches through four primary axes
 
-- relates_to::[[Progressive Trust as Agent Delegation Model]]↑
+- relates_to::[[Progressive Trust as Agent Delegation Model]]
   - Axis 3's convergence between Uni-Versum's autonomia and the estate's delegated authority spectrum prompts this inquiry
 
-- relates_to::[[Federated Agent Governance Across Sovereign Estates]]↑
+- relates_to::[[Federated Agent Governance Across Sovereign Estates]]
   - Axis 4's commons governance question — what happens when sovereign estates need to interoperate at the agent level
