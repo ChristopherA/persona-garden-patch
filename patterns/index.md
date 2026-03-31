@@ -12,4 +12,6 @@ Recurring solutions that resolve specific tensions.
 
 **[Role Prompting Improves Style but Not Accuracy](Role%20Prompting%20Improves%20Style%20but%20Not%20Accuracy.html)** — Use role prompting for behavioral discipline, not knowledge retrieval
 
-*5 nodes in this section.*
+**[Vocabulary Collision Navigation](Vocabulary%20Collision%20Navigation.html)** — Three strategies for when naming traditions collide — and why vocabulary diversity is a feature
+
+*6 nodes in this section.*

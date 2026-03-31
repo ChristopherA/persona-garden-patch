@@ -2,16 +2,18 @@
 created: 2026-03-06
 author: Christopher Allen
 brief_summary: "Domain index for Deep Context Architecture — a system for capturing reasoning as typed markdown nodes connected by predicates, organized into precincts (garden and vault). Covers precincts, type system, lifecycle tracks, compound documents, naming, classification, meeting capture, personal knowledge management methods, and retrieval."
-tagline: "The architecture that defines both precincts — typed nodes, predicates, and progressive disclosure"
+tagline: "Metacognitive architecture for captured reasoning — typed nodes, predicates, and progressive disclosure in service of human insight"
 formatted: "2026-03-14"
 ---
 
-- is_a::[\[\[Domain Form\]\]](../forms/Domain%20Form.html)
-- has_status::[\[\[Seed Stage\]\]](../forms/Seed%20Stage.html)
+- is_a::[Domain Form](../forms/Domain%20Form.html)
+- has_status::[Seed Stage](../forms/Seed%20Stage.html)
 
 # Deep Context Architecture
 
 Deep context is an architecture for captured reasoning: typed markdown forms connected by predicates into a navigable knowledge graph. Each form type answers a distinct question and carries a structural contract — required sections that make the form's shape predictable. The architecture operates across three layers: authoring (markdown), structure (predicates and graph), and retrieval (agents and search).
+
+The architecture serves metacognition — thinking about thinking, pattern recognition, and accumulated insight across sessions, domains, and years. This distinguishes it from the harness engineering field, which optimizes for agentic execution throughput (agents producing better code faster). Deep Context Architecture uses harness patterns (Agent-Computer Interface, scaffolding, mechanical enforcement) as infrastructure, but the practice it enables — inquiry-driven research, form-typed knowledge synthesis, sovereignty-respecting collaboration — is not reducible to that infrastructure. See [[Metacognition Over Execution Throughput]]↑.
 
 This domain is self-referential — the garden that implements the architecture is also the primary test case for it.
 
@@ -29,22 +31,22 @@ The architecture organizes knowledge into two precincts — bounded zones with s
 
 - [[Precinct as Organizational Unit]]↑ — the decision adopting "precinct" from urban planning
 - [[Household Precinct Over Vault Precinct]]↑ — renaming from "Vault" to avoid collision with Obsidian's vault concept
-- [\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html) — curated forms with structural contracts and growth stages
-- [\[\[Household Precinct\]\]](../glosses/Household%20Precinct.html) — operational knowledge capture, organization, and retrieval
+- [Garden Precinct](../glosses/Garden%20Precinct.html) — curated forms with structural contracts and growth stages
+- [Household Precinct](../glosses/Household%20Precinct.html) — operational knowledge capture, organization, and retrieval
 - [[Boundary Guardian as Distinct Agent Type]]↑ — separating constraint enforcement from orchestration
-- [[Three Functional Types in Agent Taxonomy]]↑ — orchestrator, worker, boundary guardian
-- [\[\[Form Type\]\]](../forms/Form%20Type.html) — meta-definition of what a form type is
-- 17 garden form type definitions: [\[\[Boundary Form\]\]](../forms/Boundary%20Form.html), [\[\[Case Form\]\]](../forms/Case%20Form.html), [\[\[Citation Form\]\]](../forms/Citation%20Form.html), [\[\[Conviction Form\]\]](../forms/Conviction%20Form.html), [\[\[Decision Form\]\]](../forms/Decision%20Form.html), [\[\[Domain Form\]\]](../forms/Domain%20Form.html), [\[\[Gloss Form\]\]](../forms/Gloss%20Form.html), [\[\[Inquiry Form\]\]](../forms/Inquiry%20Form.html), [\[\[Model Form\]\]](../forms/Model%20Form.html), [\[\[Opus Form\]\]](../forms/Opus%20Form.html), [\[\[Pattern Form\]\]](../forms/Pattern%20Form.html), [\[\[Principle Form\]\]](../forms/Principle%20Form.html), [\[\[Protocol Form\]\]](../forms/Protocol%20Form.html), [\[\[Reference Form\]\]](../forms/Reference%20Form.html), [\[\[Research Form\]\]](../forms/Research%20Form.html), [\[\[Scenario Form\]\]](../forms/Scenario%20Form.html), [\[\[Skill Form\]\]](../forms/Skill%20Form.html), [\[\[Value Form\]\]](../forms/Value%20Form.html)
-- 4 status stages (shared): [\[\[Seed Stage\]\]](../forms/Seed%20Stage.html), [\[\[Growing Stage\]\]](../forms/Growing%20Stage.html), [\[\[Evergreen Stage\]\]](../forms/Evergreen%20Stage.html), [\[\[Pruned Stage\]\]](../forms/Pruned%20Stage.html)
-- 5 vault form types: [\[\[Meeting Note\]\]](../forms/Meeting%20Note.html), [\[\[Transcript\]\]](../forms/Transcript.html), [\[\[Person Note\]\]](../forms/Person%20Note.html), [\[\[Chat Log\]\]](../forms/Chat%20Log.html), [\[\[Sidecar\]\]](../forms/Sidecar.html)
+- [[Functional Types in Agent Taxonomy]]↑ — steward, orchestrator, worker, boundary guardian
+- [Form Type](../forms/Form%20Type.html) — meta-definition of what a form type is
+- 17 garden form type definitions: [Boundary Form](../forms/Boundary%20Form.html), [Case Form](../forms/Case%20Form.html), [Citation Form](../forms/Citation%20Form.html), [Conviction Form](../forms/Conviction%20Form.html), [Decision Form](../forms/Decision%20Form.html), [Domain Form](../forms/Domain%20Form.html), [Gloss Form](../forms/Gloss%20Form.html), [Inquiry Form](../forms/Inquiry%20Form.html), [Model Form](../forms/Model%20Form.html), [Opus Form](../forms/Opus%20Form.html), [Pattern Form](../forms/Pattern%20Form.html), [Principle Form](../forms/Principle%20Form.html), [Protocol Form](../forms/Protocol%20Form.html), [Reference Form](../forms/Reference%20Form.html), [Research Form](../forms/Research%20Form.html), [Scenario Form](../forms/Scenario%20Form.html), [Skill Form](../forms/Skill%20Form.html), [Value Form](../forms/Value%20Form.html)
+- 4 status stages (shared): [Seed Stage](../forms/Seed%20Stage.html), [Growing Stage](../forms/Growing%20Stage.html), [Evergreen Stage](../forms/Evergreen%20Stage.html), [Pruned Stage](../forms/Pruned%20Stage.html)
+- 5 vault form types: [Meeting Note](../forms/Meeting%20Note.html), [Transcript](../forms/Transcript.html), [Person Note](../forms/Person%20Note.html), [Chat Log](../forms/Chat%20Log.html), [Sidecar](../forms/Sidecar.html)
 
 ### Founding Decision
 
-- [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](../decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — the decision to capture reasoning as typed forms with predicates, not fine-tuning, RAG, databases, or tags
+- [Deep Context as an Architecture for Captured Reasoning](../decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — the decision to capture reasoning as typed forms with predicates, not fine-tuning, RAG, databases, or tags
 
 ### Core Concept
 
-- [[Deep Context as Shared Language]]↑ — the origin and meaning of "deep context": making implicit understanding explicit and navigable
+- [Deep Context as Shared Language](../glosses/Deep%20Context%20as%20Shared%20Language.html) — the origin and meaning of "deep context": making implicit understanding explicit and navigable
 
 ### Classification and Naming
 
@@ -114,6 +116,7 @@ Orientations that direct architectural decisions:
 
 ### Convictions
 
+- [[Metacognition Over Execution Throughput]]↑ — the estate's purpose is insight quality and knowledge accumulation, not agentic execution throughput; the infrastructure serves metacognition
 - [[Values Precede Technical Decisions]]↑ — technical architecture must be grounded in human values; when values and convenience conflict, values win
 
 ### Principles and Patterns
@@ -140,6 +143,16 @@ Standing constraints and recurring solutions:
 - [[Git Tags for Sent-Version Tracking]]↑ — git tags track what recipients received of living documents
 - [[Cross-Project Learning Repatriation]]↑ — learnings belong where consumed, not where produced
 - [[Informal Edges Poison the Graph]]↑ — uncurated predicates compound into retrieval failure (anti-pattern)
+- [[The Brief-First Principle]]↑ — pattern: read principal's intent before assessing the environment; survey without brief wastes context
+- [[Commission Carries the Knowledge]]↑ — pattern: specialize by operation when content is uniform; by commission when operations are uniform
+- [[Close-Out Momentum Failure]]↑ — anti-pattern: obligations after substantive work get compressed proportionally to the work that preceded them
+- [[Term Overloading Across Abstraction Layers]]↑ — anti-pattern: same term for structurally different things at different layers; collision invisible until cross-cutting work
+- [[Self-Documenting Queue Contract]]↑ — pattern: coordination artifacts declare ownership, entry format, and pipeline position at the point of use
+- [[Content Pressure as Compound Graduation Diagnostic]]↑ — pattern: content not fitting structural contract signals compound graduation is needed
+- [[Workstream Lifecycle Phases]]↑ — pattern: discover → prototype → operationalize → sustain; transition changes the workstream's contract
+- [[Convention Reuse Over Form-Specific Invention]]↑ — principle: compose with existing cross-form conventions before designing form-specific structure
+- [[Convergent Motivation as Load-Bearing Signal]]↑ — principle: 4+ independent motivations converging on one solution signals load-bearing infrastructure
+- [[Design Lives in the Garden Runtime Lives in Config]]↑ — principle: garden holds design, config holds runtime; renders_as:: bridges them
 - [[One Context One Concern]]↑ — separate research and implementation into distinct contexts connected by compressed handoff
 - [[Ghost Links as Garden Planning Tools]]↑ — treat unresolved wikilinks as planning tools, not lint errors; prioritize writing by incoming predicate count
 - [[Graph Structure Validation for Garden Nodes]]↑ — graph-level lint complementing form-level validation: predicate presence, domain membership, orphan detection
@@ -148,6 +161,7 @@ Standing constraints and recurring solutions:
 
 Open investigations into architectural questions:
 
+- [[Beyond the Harness — What the Estate Is Actually Building]]↑ — three-layer investigation: harness portability, Deep Context Architecture as metacognitive practice, and commons outward permeability
 - [[Form Type Distinctiveness in Naming and Structure]]↑ — whether 16 form types are distinguishable in practice by naming patterns and structural contracts
 - [[Naming Distinctiveness in Agent and Garden Architecture]]↑ — whether agent archetype overlap and garden title conventions produce enough differentiation
 - [[Inquiry Lifecycle and Resolution]]↑ — when an inquiry is "done" and what resolution means for a generative form
@@ -178,6 +192,9 @@ Structural relationships within the architecture:
 - [[Status Lifecycle Tracks]]↑ — three status tracks for three kinds of knowledge work (maturity, curation, processing)
 - [[Document Lifecycle Governance Heuristics]]↑ — wiki split/merge/delete heuristics applied to garden tending and agent context
 - [[Cross-Domain Document Lifecycle Parallels]]↑ — wiki, garden, and agent context face the same lifecycle problems under different constraints
+- [[Organizational Gossip Protocol]]↑ — model: estate brief system implements epidemic algorithm coordination from distributed systems (Dunbar, Demers et al.)
+- [[Three-Body Agent Representation Problem]]↑ — model: agent definition + persona + brief create three-layer information migration; fix is clear ownership per layer
+- [[Three Layers of Human Agency in Supervised Systems]]↑ — model: mechanical (never ask), judgment (batch), knowledge (always ask); membrane thickens at knowledge boundaries
 - [[Sycophantic Confidence Spiral]]↑ — AI agreement-bias creates circular evidence that concentrates beliefs without approaching truth
 - [[Vocabulary Lifecycle Through Tending]]↑ — growing vocabularies degrade without continuous weeding, seeding, and fertilizing
 
@@ -226,7 +243,7 @@ Structural relationships within the architecture:
 
 ## Sources
 
-- [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](../decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — founding decision: typed forms with predicates over alternatives
+- [Deep Context as an Architecture for Captured Reasoning](../decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — founding decision: typed forms with predicates over alternatives
 - [[Deep Context Garden Conventions]]↑ — implementation conventions for this vault
 - [[Deep Context Content Decision Records]]↑ — ADRs for content decisions
 - [[Deep Context Implementation Roadmap]]↑ — phase-by-phase build plan

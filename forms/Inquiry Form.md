@@ -6,10 +6,10 @@ tagline: "What should we think about X, and how would we find out? — the struc
 formatted: "2026-03-14"
 ---
 
-- is_a::[\[\[Form Type\]\]](Form%20Type.html)
-- has_status::[\[\[Seed Stage\]\]](Seed%20Stage.html)
-- in_domain::[\[\[Deep Context Architecture\]\]](../domains/Deep%20Context%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Form Type](Form%20Type.html)
+- has_status::[Seed Stage](Seed%20Stage.html)
+- in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Inquiry Form
 
@@ -26,6 +26,7 @@ An inquiry form requires:
 - **Research question** — Clear framing of what's being investigated.
 - **Current state** — What's known, what hypotheses exist, what evidence has been gathered.
 - **Open questions** — Specific, answerable questions. Not vague wonderings.
+- **Workstream owner** — Which workstream tracks progress on this inquiry. Without a workstream binding, inquiries become write-only. When the inquiry moves domains or the owning workstream closes, the binding must be updated or transferred.
 - **Sources** — Evidence and references marshaled so far.
 - **Relations** — Connections to nodes the inquiry draws on or may produce.
 
@@ -35,13 +36,13 @@ Naming heuristic: scope of investigation + what's being determined.
 
 ## Typical Predicates
 
-- `is_a::[\[\[Inquiry Form\]\]](Inquiry%20Form.html)`
-- `has_status::[\[\[Seed Stage\]\]](Seed%20Stage.html)` or `[\[\[Growing Stage\]\]](Growing%20Stage.html)`
-- `in_domain::[\[\[Deep Context Architecture\]\]](../domains/Deep%20Context%20Architecture.html)`
+- `is_a::[Inquiry Form](Inquiry%20Form.html)`
+- `has_status::[Seed Stage](Seed%20Stage.html)` or `[Growing Stage](Growing%20Stage.html)`
+- `in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)`
 - `directed_at::[[Person Name]]↑` — flags questions for specific people
 - `extracted_from::[[Research Note]]↑` — provenance
 - `extends::[[Related Form]]↑` — applies a concept to new domain
-- `relates_to::[\[\[Gloss Form\]\]](Gloss%20Form.html)`, `[\[\[Pattern Form\]\]](Pattern%20Form.html)`
+- `relates_to::[Gloss Form](Gloss%20Form.html)`, `[Pattern Form](Pattern%20Form.html)`
 
 ## Exemplars
 
@@ -55,11 +56,11 @@ Generative form — drives the creation of new knowledge by posing questions.
 
 ## Sources
 
-Definition from [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](../decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html), lines 107-108.
+Definition from [Deep Context as an Architecture for Captured Reasoning](../decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html), lines 107-108.
 
 ## Relations
 
-- relates_to::[\[\[Gloss Form\]\]](Gloss%20Form.html) — inquiries that resolve interpretive questions produce glosses
-- relates_to::[\[\[Pattern Form\]\]](Pattern%20Form.html) — inquiries that identify recurring dynamics may crystallize into patterns
-- relates_to::[\[\[Decision Form\]\]](Decision%20Form.html) — inquiries that require a choice produce decisions
-- relates_to::[\[\[Model Form\]\]](Model%20Form.html) — inquiries that map relationships produce models
+- relates_to::[Gloss Form](Gloss%20Form.html) — inquiries that resolve interpretive questions produce glosses
+- relates_to::[Pattern Form](Pattern%20Form.html) — inquiries that identify recurring dynamics may crystallize into patterns
+- relates_to::[Decision Form](Decision%20Form.html) — inquiries that require a choice produce decisions
+- relates_to::[Model Form](Model%20Form.html) — inquiries that map relationships produce models

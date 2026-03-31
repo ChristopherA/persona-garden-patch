@@ -5,12 +5,20 @@ brief_summary: "AI agents serving the same users repeatedly face a choice: reset
 tagline: "Identity resets, knowledge persists — the middle path between predictability and relationship"
 ---
 
-- is_a::[\[\[Pattern Form\]\]](../forms/Pattern%20Form.html)
-- has_status::[\[\[Seed Stage\]\]](../forms/Seed%20Stage.html)
-- in_domain::[\[\[Deep Context Architecture\]\]](../domains/Deep%20Context%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Pattern Form](../forms/Pattern%20Form.html)
+- has_status::[Seed Stage](../forms/Seed%20Stage.html)
+- in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Ephemeral vs Persistent Persona Identity
+
+## Heart
+
+The agent that remembers you becomes an agent that drifts from itself. Separate what resets from what persists: let identity load fresh each session while knowledge survives in explicit storage. Predictability and relationship need not be traded — they live in different layers.
+
+## Problem
+
+An agent that accumulates identity across sessions absorbs user patterns, drifts from its designed baseline, and creates security exposure through persistent credentials. An agent that resets completely each session cannot build relationships or learn preferences. Neither pole serves the designer who needs both.
 
 ## Context
 
@@ -65,7 +73,7 @@ Security is cleaner: a session-bound identity with expiring credentials cannot b
 
 - extracted_from::[[Persona and Agent Personalities]]↑
 
-- relates_to::[\[\[Persona Drift Causes Detection and Prevention\]\]](Persona%20Drift%20Causes%20Detection%20and%20Prevention.html)
+- relates_to::[Persona Drift Causes Detection and Prevention](Persona%20Drift%20Causes%20Detection%20and%20Prevention.html)
   - Ephemeral identity is the drift-immune pole of this pattern. The drift pattern addresses the detection and prevention stack for agents that choose persistence.
 
 - relates_to::[[Config-State Conflation]]↑

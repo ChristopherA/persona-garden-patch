@@ -5,12 +5,20 @@ brief_summary: "An AI agent with a well-defined persona gradually diverges from 
 tagline: "Drift is directional — its direction reveals what users are pulling toward"
 ---
 
-- is_a::[\[\[Pattern Form\]\]](../forms/Pattern%20Form.html)
-- has_status::[\[\[Seed Stage\]\]](../forms/Seed%20Stage.html)
-- in_domain::[\[\[Agentic Architecture\]\]](../domains/Agentic%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Pattern Form](../forms/Pattern%20Form.html)
+- has_status::[Seed Stage](../forms/Seed%20Stage.html)
+- in_domain::[Agentic Architecture](../domains/Agentic%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Persona Drift Causes Detection and Prevention
+
+## Heart
+
+The agent still technically functions but is no longer the system that was designed and tested. Drift is directional, not random — and its direction reveals what interaction pressure is pulling the agent toward. Track the direction, not just the variance, and you have actionable intelligence rather than anxiety.
+
+## Problem
+
+A well-defined persona gradually diverges from its intended behavioral identity through interaction absorption, model updates, and accumulated edge cases. Subtle drift — slightly less empathetic tone, gradual register erosion, incremental hedging — evades standard performance metrics. By the time metrics register the shift, the persona has already moved substantially.
 
 ## Context
 
@@ -64,7 +72,7 @@ The ephemeral identity pattern is the maximum-mitigation approach: an agent that
 
 - extracted_from::[[Persona and Agent Personalities]]↑
 
-- relates_to::[\[\[Ephemeral vs Persistent Persona Identity\]\]](Ephemeral%20vs%20Persistent%20Persona%20Identity.html)
+- relates_to::[Ephemeral vs Persistent Persona Identity](Ephemeral%20vs%20Persistent%20Persona%20Identity.html)
   - Ephemeral identity is the architectural solution that eliminates cross-session drift accumulation; this pattern addresses the detection and prevention stack for systems that choose persistence.
 
 - relates_to::[[Shearing Layers for Agent Configuration]]↑
@@ -76,5 +84,5 @@ The ephemeral identity pattern is the maximum-mitigation approach: an agent that
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
   - The axes that define a persona also define what "drift" means for that persona — drift moves the agent away from its intended position on each axis.
 
-- relates_to::[\[\[Persona Specialization Beats Generalization in Multi-Step Work\]\]](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
+- relates_to::[Persona Specialization Beats Generalization in Multi-Step Work](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
   - Session-bounded specialization (each phase handled by a fresh persona invocation) limits drift accumulation within a pipeline.

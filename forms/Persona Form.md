@@ -5,10 +5,10 @@ brief_summary: "Defines the Persona form type: an agent identity specification d
 tagline: "Who is this agent and how does it behave? — the structural contract for persona forms"
 ---
 
-- is_a::[\[\[Form Type\]\]](Form%20Type.html)
-- has_status::[\[\[Seed Stage\]\]](Seed%20Stage.html)
-- in_domain::[\[\[Deep Context Architecture\]\]](../domains/Deep%20Context%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Form Type](Form%20Type.html)
+- has_status::[Seed Stage](Seed%20Stage.html)
+- in_domain::[Deep Context Architecture](../domains/Deep%20Context%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Persona Form
 
@@ -42,17 +42,66 @@ Optional for compound personas:
 - **Composition model** — How this persona relates to others (polarity pairs, orchestrator-worker, peer coordination).
 - **Consumer context** — Who or what uses this persona and how (deliberation, task execution, reflection, orchestration).
 
-Naming heuristic: role noun with "Persona" suffix — `[Role] Persona`. "Groundskeeper Persona" not "Garden Orchestration Persona." Name who the agent is, not what the form type is. Use the full name in wikilinks: `[\[\[Groundskeeper Persona\]\]](../personas/Groundskeeper%20Persona.html)`.
+Naming heuristic: role noun with "Persona" suffix — `[Role] Persona`. "Groundskeeper Persona" not "Garden Orchestration Persona." Name who the agent is, not what the form type is. Use the full name in wikilinks: `[Groundskeeper Persona](../personas/Groundskeeper%20Persona.html)`.
+
+## Compound Structure
+
+Personas that accumulate operational history, voice definition, and persistent context beyond what a single lead file can hold graduate to compound documents. The compound option is not required — simple personas remain atomic.
+
+**Folder structure:**
+
+```
+Garden/personas/[Persona Name]/
+├── [Persona Name].md                        ← lead file (full structural contract)
+├── [Persona Name] — Voice.md                ← communication style, constraints, examples
+├── [Persona Name] — [other sub-files].md    ← as needed by implementation experience
+├── Private/                                 ← praxis (behind publication membrane)
+│   ├── session-learnings.md                 ← operational patterns from deep learning
+│   ├── corrections-history.md               ← design corrections with reasoning
+│   └── accumulated-context.md               ← persistent state that survives brief triage
+├── Archives/                                ← if needed (superseded versions, snapshots)
+├── Renditions/                              ← if needed
+└── Attachments/                             ← if needed (diagrams, screenshots)
+```
+
+**Lead file** retains the full structural contract (core identity through relations). It is the synpraxis design document — what collaborators' agents read first. Moving to compound does not change the lead file's structure; it offloads content that was accumulating in agent briefs, agent files, and session logs.
+
+**Voice sub-file** (`[Persona Name] — Voice.md`) is synpraxis — collaborators' agents need it for cross-garden communication. Uses em-dash naming per [[Proper Obsidian Names for Garden Compound Sub-Files]]↑. Contains: communication style, voice constraints, examples from actual communications, and notes on how the voice was discovered through practice.
+
+**Private/ sub-files** are the agent's operational memory. They relieve agent briefs of accumulated context that has nowhere else to live. Each agent writes to its own persona's Private/ folder — Private/ is the agent's capability token. Private/ sub-files serve progressive disclosure: a 128K context window reads the lead file; a 1M context window pulls Private/ sub-files as needed.
+
+Private/ sub-files use lowercase-kebab naming (praxis infrastructure, not synpraxis Obsidian nodes). See [[Garden Compound Document Architecture]]↑ sub-topic F for the full Private/ convention.
+
+**Other em-dash sub-files** emerge from implementation experience. Candidates observed but not yet required: Communications Log (agent-to-person instances), Design Rationale (why choices were made). Create these when content warrants — the content drives the structure, not the other way around.
+
+**Archives/, Renditions/, Attachments/** follow the same conventions as other compound forms. Created when content warrants.
+
+### Migration safety
+
+Converting an atomic persona to compound via `git mv` into a subfolder preserves Obsidian wikilink resolution. Obsidian resolves `[Groundskeeper Persona](../personas/Groundskeeper%20Persona.html)` by filename match, not path — so moving the lead file from `Garden/personas/Groundskeeper Persona.md` to `Garden/personas/Groundskeeper Persona/Groundskeeper Persona.md` requires zero wikilink fixup across the vault. The cost of compound graduation is in creating sub-files, not in the structural migration.
+
+### Graduation criteria
+
+A persona is ready for compound graduation when it has accumulated content in two or more of: voice definition, operational learnings, communication history, persistent context that doesn't fit the lead file or brief. The first instance ([Groundskeeper Persona](../personas/Groundskeeper%20Persona.html)) graduated after accumulating voice principles from its first external communication, operational learnings across 100+ sessions, and persistent context that cycled through briefs without a durable home.
+
+### Post-conversion check
+
+After compound graduation, verify the lead file follows progressive disclosure: it should contain only design-level content (identity, scope, objectives, principles, relationships, blind spots). Runtime operational detail (session protocols, maintenance checklists, handoff routing) belongs in the agent definition file, not the persona lead. The `renders_as::` predicate in Relations links the persona to its runtime renditions. Test: would an Obsidian reader browsing the garden care about this section? If not, it's runtime detail.
+
+### Born compound
+
+When the compound structure is known at creation time — voice constraints defined, Private/ content anticipated, design specification complete — creating as compound from inception skips the atomic-to-compound migration. The [[Estate Chamberlain Persona]]↑ is the first born-compound persona. Born-compound is appropriate when the persona's design specification already includes sub-file content; it is not appropriate when the persona needs operational testing before its structure can be determined.
 
 ## Typical Predicates
 
-- `is_a::[\[\[Persona Form\]\]](Persona%20Form.html)`
-- `has_status::[\[\[Seed Stage\]\]](Seed%20Stage.html)` or `[\[\[Evergreen Stage\]\]](Evergreen%20Stage.html)`
+- `is_a::[Persona Form](Persona%20Form.html)`
+- `has_status::[Seed Stage](Seed%20Stage.html)` or `[Evergreen Stage](Evergreen%20Stage.html)`
 - `in_domain::[[Domain Name]]↑`
-- `in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)` or `[\[\[Household Precinct\]\]](../glosses/Household%20Precinct.html)`
-- `coordinates_with::[\[\[Persona Form\]\]](Persona%20Form.html)` — other personas in the same system
-- `follows::[\[\[Principle Form\]\]](Principle%20Form.html)` — principles that constrain behavior
-- `operates_in::[\[\[Domain Form\]\]](Domain%20Form.html)` — knowledge domains the persona works within
+- `in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)` or `[Household Precinct](../glosses/Household%20Precinct.html)`
+- `coordinates_with::[Persona Form](Persona%20Form.html)` — other personas in the same system
+- `follows::[Principle Form](Principle%20Form.html)` — principles that constrain behavior
+- `operates_in::[Domain Form](Domain%20Form.html)` — knowledge domains the persona works within
+- `renders_as::` — path to runtime rendition (e.g., `.claude/agents/seneschal.md` for Claude Code)
 
 ## Five Observed Approaches
 
@@ -74,8 +123,9 @@ Action form — captures *who acts* and *how they behave*.
 
 ## Exemplars
 
-- [\[\[Groundskeeper Persona\]\]](../personas/Groundskeeper%20Persona.html) — Garden Precinct orchestrator (first instance)
-- [\[\[Gardener Persona\]\]](../personas/Gardener%20Persona.html) — Garden Precinct worker (first instance)
+- [Groundskeeper Persona](../personas/Groundskeeper%20Persona.html) — Garden Precinct orchestrator (first instance; first compound persona)
+- [[Estate Chamberlain Persona]]↑ — estate-level operational coordinator (first born-compound persona)
+- [Gardener Persona](../personas/Gardener%20Persona.html) — Garden Precinct worker (first instance; atomic)
 
 ## Sources
 
@@ -86,13 +136,13 @@ Action form — captures *who acts* and *how they behave*.
 
 ## Relations
 
-- relates_to::[\[\[Skill Form\]\]](Skill%20Form.html)
+- relates_to::[Skill Form](Skill%20Form.html)
   - Personas define WHO; skills define HOW. They compose: a persona uses skills but is not a skill.
 
-- relates_to::[\[\[Protocol Form\]\]](Protocol%20Form.html)
+- relates_to::[Protocol Form](Protocol%20Form.html)
   - Coordination between personas (Groundskeeper assigning commissions to Gardeners) is a protocol concern. The persona defines the participant; the protocol defines the interaction.
 
-- relates_to::[\[\[Boundary Form\]\]](Boundary%20Form.html)
+- relates_to::[Boundary Form](Boundary%20Form.html)
   - Persona non-goals and scope constraints define boundaries of agent authority.
 
 - relates_to::[[Principal-Agent Relationship in Augmented Knowledge Work]]↑

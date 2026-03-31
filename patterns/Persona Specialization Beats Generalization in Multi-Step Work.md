@@ -5,12 +5,20 @@ brief_summary: "Multi-step tasks requiring different reasoning stances at each p
 tagline: "One context window cannot sustain expert depth across incompatible reasoning stances"
 ---
 
-- is_a::[\[\[Pattern Form\]\]](../forms/Pattern%20Form.html)
-- has_status::[\[\[Seed Stage\]\]](../forms/Seed%20Stage.html)
-- in_domain::[\[\[Agentic Architecture\]\]](../domains/Agentic%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Pattern Form](../forms/Pattern%20Form.html)
+- has_status::[Seed Stage](../forms/Seed%20Stage.html)
+- in_domain::[Agentic Architecture](../domains/Agentic%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Persona Specialization Beats Generalization in Multi-Step Work
+
+## Heart
+
+A single context window cannot sustain expert depth across incompatible reasoning stances. Give each phase its own specialist — architecture to one agent, review to another, documentation to a third — and the coherence cascade does the rest: superior early decisions automatically improve all downstream work.
+
+## Problem
+
+A generalist agent handling a multi-step task produces surface-level coverage at each step: technically correct but lacking depth. Architecture gets hedged rather than decisive; review gets polite rather than rigorous; documentation gets comprehensive rather than clear. The agent spreads attention across incompatible reasoning modes and commits fully to none.
 
 ## Context
 
@@ -62,13 +70,13 @@ Sequential dependency slows parallel work. Coordination costs increase with agen
 
 - extracted_from::[[Persona and Agent Personalities]]↑
 
-- relates_to::[\[\[Role Prompting Improves Style but Not Accuracy\]\]](Role%20Prompting%20Improves%20Style%20but%20Not%20Accuracy.html)
+- relates_to::[Role Prompting Improves Style but Not Accuracy](Role%20Prompting%20Improves%20Style%20but%20Not%20Accuracy.html)
   - Specialization produces expert-depth behavioral output per phase; this sibling pattern specifies what kind of improvement persona framing can deliver within each specialized phase.
 
 - relates_to::[[Structured Disagreement Through Persona Review]]↑
   - Adversarial deliberation is a multi-persona coordination structure; this pattern addresses the collaborative coordination case where phase sequencing matters more than opinion diversity.
 
-- relates_to::[\[\[Multi-Agent Persona Coordination and Adversarial Deliberation\]\]](Multi-Agent%20Persona%20Coordination%20and%20Adversarial%20Deliberation.html)
+- relates_to::[Multi-Agent Persona Coordination and Adversarial Deliberation](Multi-Agent%20Persona%20Coordination%20and%20Adversarial%20Deliberation.html)
   - The coordination topology choices (chain, star, mesh) intersect with phase specialization: chain topology directly maps to the sequential phase structure this pattern recommends.
 
 - relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑

@@ -16,6 +16,8 @@ Interpretive definitions that frame concepts through a broader lens.
 
 **[Ghost Link as Unplanted Garden Stake](Ghost%20Link%20as%20Unplanted%20Garden%20Stake.html)** — A reference to a node that does not exist yet — a stake marking where one could grow
 
+**[Gracia's Latin Namespace as Precision Infrastructure](Gracia's%20Latin%20Namespace%20as%20Precision%20Infrastructure.html)** — Latin as namespace isolation — one term, one meaning, no prior-tool connotations
+
 **[Grafted Node as Transplanted Knowledge in a Garden Patch](Grafted%20Node%20as%20Transplanted%20Knowledge%20in%20a%20Garden%20Patch.html)** — A node copied from the source garden into a garden patch, where it grows in new context
 
 **[Household Precinct](Household%20Precinct.html)** — Operational knowledge capture, organization, and retrieval for daily work
@@ -26,8 +28,10 @@ Interpretive definitions that frame concepts through a broader lens.
 
 **[Principal Authority as Agency Law for Digital Identity](Principal%20Authority%20as%20Agency%20Law%20for%20Digital%20Identity.html)** — Agency law applied to digital identity — five duties, five definitions, revocability as litmus test
 
+**[Reflection Personas as Framework-Grounded Analytical Lenses](Reflection%20Personas%20as%20Framework-Grounded%20Analytical%20Lenses.html)** — Frameworks generate different questions — topic labels generate different answers to the same question
+
 **[Structural Contract as Form Type Agreement](Structural%20Contract%20as%20Form%20Type%20Agreement.html)** — The agreement that every instance of a form type follows the same internal structure
 
 **[Upstream Node as Source Garden Reference](Upstream%20Node%20as%20Source%20Garden%20Reference.html)** — A node that exists in the source garden but was not grafted into this patch
 
-*14 nodes in this section.*
+*16 nodes in this section.*

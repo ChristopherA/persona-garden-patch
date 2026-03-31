@@ -5,12 +5,20 @@ brief_summary: "Role prompting reliably shapes tone, style, and behavioral disci
 tagline: "Use role prompting for behavioral discipline, not knowledge retrieval"
 ---
 
-- is_a::[\[\[Pattern Form\]\]](../forms/Pattern%20Form.html)
-- has_status::[\[\[Seed Stage\]\]](../forms/Seed%20Stage.html)
-- in_domain::[\[\[Agentic Architecture\]\]](../domains/Agentic%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Pattern Form](../forms/Pattern%20Form.html)
+- has_status::[Seed Stage](../forms/Seed%20Stage.html)
+- in_domain::[Agentic Architecture](../domains/Agentic%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Role Prompting Improves Style but Not Accuracy
+
+## Heart
+
+Naming the expert activates the expert's manner, not the expert's knowledge. Role prompting reliably shapes tone, scope, and behavioral discipline — but two independent empirical studies confirm it does not improve factual accuracy and may damage it. Design for the lever you actually have.
+
+## Problem
+
+Designers assign persona roles expecting both behavioral and epistemic improvements. "You are a senior data scientist" seems like it should produce data-scientist-quality reasoning. In practice, accuracy stays flat or degrades while style genuinely improves — but designers who conflate the two cannot tell which lever moved.
 
 ## Context
 
@@ -63,7 +71,7 @@ The pattern does not eliminate the need for factual accuracy improvement — it 
 - relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
   - Role specialization is one configuration layer; this pattern specifies which concerns role specialization can and cannot address within that layer.
 
-- relates_to::[\[\[Persona Specialization Beats Generalization in Multi-Step Work\]\]](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
+- relates_to::[Persona Specialization Beats Generalization in Multi-Step Work](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
   - Specialization at the phase level produces depth; this pattern specifies what kind of depth persona framing can produce (behavioral, not epistemic).
 
 - relates_to::[[Shearing Layers for Agent Configuration]]↑

@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 34 grafted nodes · 35 form definitions grafted · 158 upstream↑ nodes documented · 55 unlocated references**
+**8 patch-native⊙ nodes · 51 grafted nodes · 35 form definitions grafted · 325 upstream↑ nodes documented**
 
 ---
 
@@ -40,6 +40,8 @@ Structural representations of persona design landscapes and mechanisms.
 - [\[\[The Persona Selection Model\]\]](models/The%20Persona%20Selection%20Model.html) — How LLMs activate learned character patterns from pretraining data
 - [\[\[Persona Vectors and the Assistant Axis\]\]](models/Persona%20Vectors%20and%20the%20Assistant%20Axis.html) — 275 character archetypes organized along assistant-aligned to fantastical axis
 - [\[\[Psychometric Personality Frameworks for AI Agents\]\]](models/Psychometric%20Personality%20Frameworks%20for%20AI%20Agents.html) — Applying Big Five and MBTI frameworks to agent behavioral measurement
+- [\[\[The Self-Sovereign Estate Persona Architecture\]\]](models/The%20Self-Sovereign%20Estate%20Persona%20Architecture.html) — Self-sovereign identity principles applied to estate agent architecture
+- [\[\[Six Approaches to Persona Architecture — Synthesis\]\]](models/Six%20Approaches%20to%20Persona%20Architecture%20%E2%80%94%20Synthesis.html) — Six approaches to agent identity — what they share, where they diverge, and how they might interoperate
 
 ### Patterns
 
@@ -50,6 +52,7 @@ Recurring solutions and observed regularities in persona design.
 - [\[\[Persona Drift Causes Detection and Prevention\]\]](patterns/Persona%20Drift%20Causes%20Detection%20and%20Prevention.html) — How personas degrade over long contexts and how to prevent it
 - [\[\[Ephemeral vs Persistent Persona Identity\]\]](patterns/Ephemeral%20vs%20Persistent%20Persona%20Identity.html) — The tension between session-scoped and persistent persona identity
 - [\[\[Multi-Agent Persona Coordination and Adversarial Deliberation\]\]](patterns/Multi-Agent%20Persona%20Coordination%20and%20Adversarial%20Deliberation.html) — How multiple persona-bearing agents coordinate through structured disagreement
+- [\[\[Vocabulary Collision Navigation\]\]](patterns/Vocabulary%20Collision%20Navigation.html) — Three strategies for when naming traditions collide
 
 ### Glosses
 
@@ -57,6 +60,8 @@ Interpretive definitions that frame persona concepts.
 
 - [\[\[Behavioral Questions vs Identity Assertions in Persona Design\]\]](glosses/Behavioral%20Questions%20vs%20Identity%20Assertions%20in%20Persona%20Design.html) — The distinction between specifying what an agent does versus who it is
 - [\[\[Anthropic Soul Document as Training-Time Character Specification\]\]](glosses/Anthropic%20Soul%20Document%20as%20Training-Time%20Character%20Specification.html) — How Anthropic's soul document functions as a character specification embedded during training
+- [\[\[Gracia's Latin Namespace as Precision Infrastructure\]\]](glosses/Gracia%27s%20Latin%20Namespace%20as%20Precision%20Infrastructure.html) — Latin as namespace isolation — one term, one meaning, no prior-tool connotations
+- [\[\[Reflection Personas as Framework-Grounded Analytical Lenses\]\]](glosses/Reflection%20Personas%20as%20Framework-Grounded%20Analytical%20Lenses.html) — Frameworks generate different questions — topic labels generate different answers to the same question
 
 ### Inquiries
 
@@ -73,6 +78,13 @@ Recorded choices with reasoning.
 
 - [\[\[Deep Context as an Architecture for Captured Reasoning\]\]](decisions/Deep%20Context%20as%20an%20Architecture%20for%20Captured%20Reasoning.html) — The foundational decision to use typed forms and predicates over tags, RAG, or databases
 - [\[\[Persona Nodes as Design Authority for Agent Configuration\]\]](decisions/Persona%20Nodes%20as%20Design%20Authority%20for%20Agent%20Configuration.html) — The persona is the knowledge artifact; the agent file is its rendition
+- [\[\[Feudal English Over Latin or Corporate Terms\]\]](decisions/Feudal%20English%20Over%20Latin%20or%20Corporate%20Terms.html) — Feudal English over Latin precision — stewardship and sovereignty over management and control
+
+### Convictions
+
+Core value commitments grounding the architecture.
+
+- [\[\[Naming Carries Relational Weight\]\]](convictions/Naming%20Carries%20Relational%20Weight.html) — Every name teaches the model — naming is architecture, not labeling
 
 ### Infrastructure Glosses
 
@@ -99,6 +111,16 @@ Nodes explaining the garden system itself.
 ### Scenarios
 
 - [\[\[Thousand Gardens with Autonomous Trust\]\]](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html) — What happens when gardens become autonomous cryptographic objects that trust each other progressively
+
+### Citations
+
+Source material dossiers with lead files, analysis, and renditions.
+
+- [\[\[Anthropic (2026) The Persona Selection Model\]\]](citations/Anthropic%20%282026%29%20The%20Persona%20Selection%20Model/Anthropic%20%282026%29%20The%20Persona%20Selection%20Model.html) — Post-training selects personas from pretraining; it does not create them
+- [\[\[Gracia (2026) Uni-Versum Personal Knowledge Architecture\]\]](citations/Gracia%20%282026%29%20Uni-Versum%20Personal%20Knowledge%20Architecture/Gracia%20%282026%29%20Uni-Versum%20Personal%20Knowledge%20Architecture.html) — Personal knowledge architecture with formal semantic vocabulary
+- [\[\[itsolelehmann (2026) LLM Council for Decision Quality\]\]](citations/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality.html) — Five adversarial thinking roles plus anonymous peer review
+- [\[\[Kaminski (2026) Reflection Personas\]\]](citations/Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas.html) — 27 analytical lenses showing that frameworks, not topic labels, produce genuine persona divergence
+- [\[\[nyk_builderz (2026) Council of High Intelligence Structured Disagreement\]\]](citations/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement.html) — Historical-thinker personas in polarity pairs with enforced disagreement
 
 ---
 

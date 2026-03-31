@@ -5,12 +5,20 @@ brief_summary: "Multiple agents with distinct personas can coordinate either col
 tagline: "Collaboration and adversarial deliberation are different coordination structures with different gains"
 ---
 
-- is_a::[\[\[Pattern Form\]\]](../forms/Pattern%20Form.html)
-- has_status::[\[\[Seed Stage\]\]](../forms/Seed%20Stage.html)
-- in_domain::[\[\[Agentic Architecture\]\]](../domains/Agentic%20Architecture.html)
-- in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
+- is_a::[Pattern Form](../forms/Pattern%20Form.html)
+- has_status::[Seed Stage](../forms/Seed%20Stage.html)
+- in_domain::[Agentic Architecture](../domains/Agentic%20Architecture.html)
+- in_precinct::[Garden Precinct](../glosses/Garden%20Precinct.html)
 
 # Multi-Agent Persona Coordination and Adversarial Deliberation
+
+## Heart
+
+When agents need to work together, match the coordination topology to the task: chain for sequential phases, star for parallel decomposition, mesh for exploration. When agents need to challenge each other, design for productive tension — assign conflicting mandates and require explicit engagement with opposing positions. The minority report from an adversarial agent often contains the most valuable content; preserve it rather than averaging it away.
+
+## Problem
+
+A single agent reasoning alone hits an accuracy ceiling; multiple agents reasoning together hit coordination ceilings. Adding agents improves parallel tasks but degrades sequential ones, and intensive interaction erodes the distinct perspectives that made coordination worthwhile. The designer must choose between collaboration topologies and adversarial structures without clear guidance on when each applies.
 
 ## Context
 
@@ -75,10 +83,10 @@ Gains plateau beyond 4 agents and may reverse. The design question is not "how m
 - relates_to::[[Structured Disagreement Through Persona Review]]↑
   - The adversarial deliberation case with a concrete implementation: polarity pairs, three-round protocol, convergence gate. That pattern is an instance of this one.
 
-- relates_to::[\[\[Persona Specialization Beats Generalization in Multi-Step Work\]\]](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
+- relates_to::[Persona Specialization Beats Generalization in Multi-Step Work](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
   - Phase specialization is the collaborative coordination case; this pattern adds the adversarial deliberation case and the topology selection logic.
 
-- relates_to::[\[\[Persona Drift Causes Detection and Prevention\]\]](Persona%20Drift%20Causes%20Detection%20and%20Prevention.html)
+- relates_to::[Persona Drift Causes Detection and Prevention](Persona%20Drift%20Causes%20Detection%20and%20Prevention.html)
   - Identity maintenance under intensive agent interaction is a drift problem: the convergence pressure of multi-agent interaction pulls individual agents toward a shared behavioral center. Explicit rule constraints are the prevention mechanism.
 
 - relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
