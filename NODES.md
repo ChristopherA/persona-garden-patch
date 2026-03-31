@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 61 grafted nodes · 35 form definitions grafted · 315 upstream↑ nodes documented**
+**8 patch-native⊙ nodes · 64 grafted nodes · 35 form definitions grafted · 315 upstream↑ nodes documented**
 
 ---
 
@@ -72,6 +72,7 @@ Open questions about persona architecture.
 - [\[\[How Should Persona Node Changes Sync to Agent Configuration Files\]\]](inquiries/How%20Should%20Persona%20Node%20Changes%20Sync%20to%20Agent%20Configuration%20Files.html) — How do persona design changes flow downstream to agent files, and how do we detect drift?
 - [\[\[Where Do Patch-Native Nodes Live After They Grow\]\]](inquiries/Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html)
 - [\[\[Newcomer Alienation in Growing Shared Languages\]\]](inquiries/Newcomer%20Alienation%20in%20Growing%20Shared%20Languages.html) — When shared vocabulary becomes a barrier rather than a bridge — the progressive canonization tension — When a node is born in a patch, does it stay there or get adopted — and what if it belongs to the conversation?
+- [\[\[Typed Workspaces as Container-Level Architecture\]\]](inquiries/Typed%20Workspaces%20as%20Container-Level%20Architecture.html) — Garden patches need types because different kinds of interaction need different kinds of spaces
 
 ### Decisions
 
@@ -90,6 +91,7 @@ Core value commitments grounding the architecture.
 
 - [\[\[Naming Carries Relational Weight\]\]](convictions/Naming%20Carries%20Relational%20Weight.html) — Every name teaches the model — naming is architecture, not labeling
 - [\[\[Sovereignty Is Selective Permeability Not Absolute Control\]\]](convictions/Sovereignty%20Is%20Selective%20Permeability%20Not%20Absolute%20Control.html) — Sovereignty is a membrane, not a wall — selective permeability enables exchange while protecting autonomy
+- [\[\[Allen's Impossibility Hypothesis\]\]](convictions/Allen%27s%20Impossibility%20Hypothesis.html) — Decentralization is unstable without implicit structure — and that structure is where the hidden assumptions live
 
 ### Infrastructure Glosses
 
@@ -141,6 +143,7 @@ Source material dossiers with lead files, analysis, and renditions.
 - [\[\[itsolelehmann (2026) LLM Council for Decision Quality\]\]](citations/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality.html) — Five adversarial thinking roles plus anonymous peer review
 - [\[\[Kaminski (2026) Reflection Personas\]\]](citations/Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas.html) — 27 analytical lenses showing that frameworks, not topic labels, produce genuine persona divergence
 - [\[\[nyk_builderz (2026) Council of High Intelligence Structured Disagreement\]\]](citations/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement.html) — Historical-thinker personas in polarity pairs with enforced disagreement
+- [\[\[Allen (2015) A Spectrum of Consent\]\]](citations/Allen%20%282015%29%20A%20Spectrum%20of%20Consent.html) — Twenty-three governance models from unanimity to autocracy — consent is a spectrum, not a binary
 
 ---
 

@@ -12,6 +12,8 @@ Structured dossiers on published works with analysis and insights.
 
 **[Agreement is a Bug - Structured Disagreement Through 11 Agent Personas (@nyk_builderz)](nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/Renditions/Agreement%20is%20a%20Bug%20-%20Structured%20Disagreement%20Through%2011%20Agent%20Personas%20%28@nyk_builderz%29.html)**
 
+**[Allen (2015) A Spectrum of Consent](Allen%20%282015%29%20A%20Spectrum%20of%20Consent.html)** — Twenty-three governance models from unanimity to autocracy — consent is a spectrum, not a binary
+
 **[Anthropic (2026) The Persona Selection Model](Anthropic%20%282026%29%20The%20Persona%20Selection%20Model/Anthropic%20%282026%29%20The%20Persona%20Selection%20Model.html)** — Post-training selects personas from pretraining; it does not create them
 
 **[Anthropic (2026) The Persona Selection Model — Analysis](Anthropic%20%282026%29%20The%20Persona%20Selection%20Model/Anthropic%20%282026%29%20The%20Persona%20Selection%20Model%20—%20Analysis.html)**
@@ -94,4 +96,4 @@ Structured dossiers on published works with analysis and insights.
 
 **[nyk_builderz (2026) Council of High Intelligence Structured Disagreement — Analysis](nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement%20—%20Analysis.html)**
 
-*46 nodes in this section.*
+*47 nodes in this section.*

@@ -65,12 +65,19 @@ This distinction matters because the system is designed for [[Synpraxis|synpraxi
 - Three tiers may be over-engineering for a single-user system
 - The commons concept is aspirational — no multi-estate interaction exists yet
 
+## The Impossibility Constraint
+
+Allen's Impossibility Hypothesis predicts that no decentralized commons can simultaneously achieve robust coordination, liveness, fault tolerance, and sustained decentralization. The estate's commons architecture operates within this constraint rather than attempting to solve it. The emerging norms of the Thursday group — share freely, credit through citation, don't force convergence — are lightweight social coordination that absorbs the constraints the protocol cannot satisfy. This is exactly what the impossibility hypothesis predicts: working decentralized systems shift unmet constraints into social layers.
+
+The Gordian Club System addresses one aspect of the commons question: creating relational spaces that belong to the relationship, not to either party. Clubs are autonomous cryptographic objects requiring no infrastructure — sovereignty belongs to the relationship. Victoria Gracia's "space for the other" (a workspace that holds both voices, where the structure reflects the connection rather than either individual's reasoning) maps directly onto what clubs provide. The Spectrum of Consent maps the governance trade-offs for how these shared spaces make decisions.
+
 ## Open Questions
 
 - What is the Scribe's exact scope? Is it the vault equivalent of the Gardener, or does it have different boundaries?
-- How does the commons manifest technically? Shared git repositories? Federated gardens? Published outputs?
+- How does the commons manifest technically? Shared git repositories? Federated gardens? Published outputs? Gordian Clubs?
 - Should the Seneschal have an operational agent file, or is the Seneschal role always played by the user with AI augmentation?
 - Is `in_precinct::[[Garden Precinct]]` correct for the Seneschal, or does it need a new precinct designation?
+- How do the emerging social norms (share freely, credit through citation, don't force convergence) relate to Ostrom's principles? Are they sufficient, or do they need formalization as the group grows?
 
 ## Sources
 
@@ -110,3 +117,9 @@ This distinction matters because the system is designed for [[Synpraxis|synpraxi
   - The commons preserves vocabulary diversity as a feature — each estate's naming tradition translates rather than merges
 - relates_to::[[Scope-Encoded Naming as Authority Boundary]]
   - Scope-encoded names make the three-tier hierarchy visible in naming
+- relates_to::[[Allen's Impossibility Hypothesis]]
+  - The commons architecture operates within the impossibility constraints; social norms carry load the protocol cannot
+- relates_to::[[Allen (2015) A Spectrum of Consent]]
+  - Maps the governance trade-offs for how commons participants make collective decisions
+- relates_to::[[Gracia (2026) Uni-Versum Personal Knowledge Architecture]]
+  - Victoria's "space for the other" — relational workspaces belonging to the relationship — maps onto the commons layer

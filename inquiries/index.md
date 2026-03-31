@@ -10,4 +10,8 @@ Open questions worth investigating, with possible directions.
 
 **[Where Do Patch-Native Nodes Live After They Grow](Where%20Do%20Patch-Native%20Nodes%20Live%20After%20They%20Grow.html)** — When a node is born in a patch, does it stay there or get adopted — and what if it belongs to the conversation?
 
-*4 nodes in this section.*
+**[Newcomer Alienation in Growing Shared Languages](Newcomer%20Alienation%20in%20Growing%20Shared%20Languages.html)** — When shared vocabulary becomes a barrier rather than a bridge
+
+**[Typed Workspaces as Container-Level Architecture](Typed%20Workspaces%20as%20Container-Level%20Architecture.html)** — Garden patches need types because different kinds of interaction need different kinds of spaces
+
+*6 nodes in this section.*
