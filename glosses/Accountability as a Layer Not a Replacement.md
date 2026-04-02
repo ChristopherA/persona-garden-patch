@@ -11,7 +11,7 @@ tagline: "Add coordination between sovereign systems without modifying either si
 
 # Accountability as a Layer Not a Replacement
 
-Miller, Donnelley, and Karp's [[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems|Horton protocol]] demonstrates a pattern that generalizes well beyond security: when two systems need to coordinate, you can add the coordination as a transparent layer between them rather than modifying either system to accommodate the other.
+Miller, Donnelley, and Karp's [Horton protocol](../citations/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems.html) demonstrates a pattern that generalizes well beyond security: when two systems need to coordinate, you can add the coordination as a transparent layer between them rather than modifying either system to accommodate the other.
 
 In Horton's case, the problem was accountability in capability systems. Capabilities provide proactive safety (least authority, no ambient permissions) but not reactive accountability (who did what). ACL systems provide accountability but sacrifice safety. Rather than choosing one or replacing either, Horton interposes a tracking layer that adds accountability without touching the capability substrate. Neither side changes. The new property emerges from the layer between them.
 
