@@ -10,6 +10,8 @@ Every page in this patch is a **garden node** — a markdown document with typed
 
 Garden patches are [composable](glosses/Garden%20Patch%20as%20Composable%20Knowledge%20Fragment.html): they carry their own context, can be read independently, and serve as bridges between independent knowledge systems. This patch projects nodes from Christopher Allen's personal knowledge garden — a larger system built on [deep context architecture](domains/Deep%20Context%20Architecture.html) where every decision, pattern, and conviction is a typed node in a graph.
 
+This is the second garden patch — the first was built for a [conversation about authority delegation](https://christophera.github.io/authority-delegation-garden-patch/) with Mark Miller, a different audience and a different slice of the same garden. The mechanism is still a prototype. I'm learning what cross-garden exchange actually requires by doing it, and each patch surfaces new questions about how independent knowledge systems can collaborate without forcing vocabulary convergence on each other. The [scenario node](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html) describes where I think this goes — but we're early.
+
 ## Two Conversations
 
 This patch has grown through two conversations with a small group exploring persona architecture from different directions.
