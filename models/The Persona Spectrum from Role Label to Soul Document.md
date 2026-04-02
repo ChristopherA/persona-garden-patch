@@ -61,6 +61,6 @@ The spectrum also does not address whether a given level of specification produc
 - relates_to::[\[\[The Persona Selection Model\]\]](The%20Persona%20Selection%20Model.html)
 - relates_to::[\[\[Psychometric Personality Frameworks for AI Agents\]\]](Psychometric%20Personality%20Frameworks%20for%20AI%20Agents.html)
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
 - relates_to::[\[\[Deep Context Architecture\]\]](../domains/Deep%20Context%20Architecture.html)

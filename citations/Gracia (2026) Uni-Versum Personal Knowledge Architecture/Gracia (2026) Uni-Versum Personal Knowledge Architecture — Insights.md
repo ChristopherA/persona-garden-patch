@@ -18,7 +18,7 @@ part_of: "[[Gracia (2026) Uni-Versum Personal Knowledge Architecture]]"
 
 Uni-Versum's agent taxonomy classifies agents by their interface modality, not their capabilities or intelligence level. The hierarchy: agens (any agent) splits into agens-humanus (biological) and agens-scriptum (automated). The automated branch further splits into plain agens-scriptum (tools that act but do not converse) and agens-scriptum-loquens (AI agents that use natural language as primary interface).
 
-This is a different cut than the estate's own [[Functional Types in Agent Taxonomy]] (stewards, orchestrators, workers, boundary guardians), which classifies by role in a coordination structure. The two taxonomies are orthogonal — an orchestrator can be agens-scriptum-loquens (like the Groundskeeper) or agens-humanus (like the user acting as Seneschal). The estate's taxonomy answers "what does this agent coordinate?" while Uni-Versum's answers "how does this agent communicate?"
+This is a different cut than the estate's own [Functional Types in Agent Taxonomy](../../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html) (stewards, orchestrators, workers, boundary guardians), which classifies by role in a coordination structure. The two taxonomies are orthogonal — an orchestrator can be agens-scriptum-loquens (like the Groundskeeper) or agens-humanus (like the user acting as Seneschal). The estate's taxonomy answers "what does this agent coordinate?" while Uni-Versum's answers "how does this agent communicate?"
 
 **Ghost links**: [[Agent Interface Modality as Classification Axis]], [[Orthogonal Agent Taxonomies]]
 
@@ -44,7 +44,7 @@ The distinction between local agents (fidelis-est points to this nos) and extern
 
 The autonomia concept defines agent autonomy as a dynamic trust contract that evolves over time. Some tasks are fully delegated; others require human judgment at each step. The boundary shifts as trust develops through successful delegation.
 
-This is the same pattern the estate discovered empirically through escalation tiers and the [[Augmentation Over Autonomy in Agent Architecture]] decision. But Uni-Versum names it more precisely: autonomia is not a set of permission levels but a contract that the system (nos) refines over time. The estate's authorization-escalation-rule captures the operational consequence (blast radius determines gate strength), while autonomia captures the relational mechanism (trust develops through successful delegation).
+This is the same pattern the estate discovered empirically through escalation tiers and the [Augmentation Over Autonomy in Agent Architecture](../../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html) decision. But Uni-Versum names it more precisely: autonomia is not a set of permission levels but a contract that the system (nos) refines over time. The estate's authorization-escalation-rule captures the operational consequence (blast radius determines gate strength), while autonomia captures the relational mechanism (trust develops through successful delegation).
 
 The progressive nature of autonomia aligns with [[Progressive Trust]] — Christopher Allen's own framework for trust-building through graduated disclosure and verification. Autonomia applied to agents may be a specialization of progressive trust applied to agent systems.
 

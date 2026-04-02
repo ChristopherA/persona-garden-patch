@@ -39,15 +39,15 @@ How agent configuration, state, and identity are stored, protected, and separate
 
 How agents with different roles work together:
 
-- [[Functional Types in Agent Taxonomy]]↑ — decision: stewards, orchestrators, workers, boundary guardians
+- [Functional Types in Agent Taxonomy](../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html) — decision: stewards, orchestrators, workers, boundary guardians
 - [[Boundary Guardian as Distinct Agent Type]]↑ — decision: separating constraint enforcement from orchestration
 - [[Orchestrator-Worker Separation in Personal Multi-Agent Systems]]↑ — pattern: context, attention, and cost ceilings force a two-tier agent hierarchy; cross-source corroborated across 4 independent systems
 - [[Tiered Model Allocation by Task Type]]↑ — pattern: allocate models by task type (judgment vs execution), not agent seniority; enables Opus/Sonnet/Haiku tiering
 - [[File-Directory Message Queue for Agent Coordination]]↑ — pattern: filesystem directories as message queues; inspectable with standard tools, zero infrastructure
-- [[Task Instruction and Role Specialization as Agent Configuration Layers]]↑ — model: AGENTS.md and persona files are complementary layers
-- [[Augmentation Over Autonomy in Agent Architecture]]↑ — decision: commission architecture operates as augmentation; escalation protocol for intellectual judgments
+- [Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html) — model: AGENTS.md and persona files are complementary layers
+- [Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html) — decision: commission architecture operates as augmentation; escalation protocol for intellectual judgments
 - [[Session-Invoked Versus Heartbeat-Driven Agent Initiative]]↑ — decision: this estate chose session-invoked initiative; agents have no autonomous capability between sessions
-- [[Structured Disagreement Through Persona Review]]↑ — pattern: multiple persona perspectives surface disagreements that single-agent review misses
+- [Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) — pattern: multiple persona perspectives surface disagreements that single-agent review misses
 - [[Relay Tax in Supervisor-Subagent Pipelines]]↑ — pattern: information degrades at each supervisor relay hop; direct file access preserves context integrity
 - [[Brief as Inbox Not Repository]]↑ — pattern: inter-agent channels need routing destinations and item lifetimes; without both they become accumulation layers
 - [[The Brief-First Principle]]↑ — pattern: read the principal's intent before assessing the environment; survey without brief wastes context on wrong priorities
@@ -161,7 +161,7 @@ Patterns and concepts identified but not yet extracted:
 
 ## Sources
 
-- [[Augmentation Over Autonomy in Agent Architecture]]↑ — founding decision for the commission architecture
+- [Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html) — founding decision for the commission architecture
 - [[systematicls (2026) World-Class Agentic Engineering]]↑ — practitioner guide; independent validation of context management and rule/skill lifecycle
 - [[Rajasekaran (2025) Effective Context Engineering for AI Agents]]↑ — Anthropic's engineering guide on attention budgets and sub-agent isolation
 - [[rohit4verse (2026) The Harness Is Everything]]↑ — synthesis of harness-over-model insight; source for 9 new vocabulary glosses (ACI, scaffolding, two-agent architecture, feature list, mechanical enforcement, environment audit, spec first, feedback loops, compaction, worktree isolation)

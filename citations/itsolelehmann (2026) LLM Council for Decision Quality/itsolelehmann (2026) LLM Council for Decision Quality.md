@@ -58,7 +58,7 @@ Lehmann adapts Karpathy's LLM Council — originally a multi-model polling syste
 
 ## Influence
 
-This article provides the most concrete practitioner implementation of structured multi-agent disagreement for decision quality. Its direct connection to the estate's [[Structured Disagreement Through Persona Review]]↑ pattern makes it load-bearing for the persona strategy discussion: it demonstrates anonymization, gap-detection naming, and the role-vs-model diversity question that the estate's architecture must address. The 198,000+ views and 2,000+ bookmarks indicate significant practitioner uptake of the council pattern.
+This article provides the most concrete practitioner implementation of structured multi-agent disagreement for decision quality. Its direct connection to the estate's [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) pattern makes it load-bearing for the persona strategy discussion: it demonstrates anonymization, gap-detection naming, and the role-vs-model diversity question that the estate's architecture must address. The 198,000+ views and 2,000+ bookmarks indicate significant practitioner uptake of the council pattern.
 
 ## Limitations
 
@@ -77,7 +77,7 @@ This article provides the most concrete practitioner implementation of structure
 
 ## Relations
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The council implements the same core pattern — multiple constrained perspectives plus structured comparison — but adds anonymization and forced synthesis that the estate's version lacks. The comparison surfaces specific design questions for estate persona review.
 
 - relates_to::[[itsolelehmann (2026) Ultimate Guide to Claude Skills 2.0]]↑
@@ -86,7 +86,7 @@ This article provides the most concrete practitioner implementation of structure
 - relates_to::[[Human Authority Over Augmentation Systems]]↑
   - The council's chairman synthesis step trades human authority for decision speed — a direct tension with this principle. The estate's alternative (structured disagreement without forced synthesis) preserves authority at the cost of higher cognitive load.
 
-- relates_to::[[Functional Types in Agent Taxonomy]]↑
+- relates_to::[Functional Types in Agent Taxonomy](../../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html)
   - Lehmann's five adversarial roles represent an analytical taxonomy distinct from the estate's operational taxonomy. The estate has stewards, orchestrators, workers, and boundary guardians (who do things); the council has contrarians, first-principles thinkers, expansionists, outsiders, and executors (who evaluate things). These axes are complementary.
 
 - relates_to::[[Tiered Model Allocation by Task Type]]↑

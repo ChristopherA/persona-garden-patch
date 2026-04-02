@@ -74,7 +74,7 @@ The audit question for any garden persona: does each statement in the persona sp
 - relates_to::[\[\[The Persona Spectrum from Role Label to Soul Document\]\]](../models/The%20Persona%20Spectrum%20from%20Role%20Label%20to%20Soul%20Document.html)
   - The behavioral/identity distinction maps onto the spectrum: role labels are identity assertions; soul documents are behavioral specifications.
 
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
   - Role specialization that uses identity assertions instead of behavioral rules is less effective at creating divergent agent behavior.
 
 - relates_to::[\[\[Persona Drift Causes Detection and Prevention\]\]](../patterns/Persona%20Drift%20Causes%20Detection%20and%20Prevention.html)
@@ -83,5 +83,5 @@ The audit question for any garden persona: does each statement in the persona sp
 - relates_to::[\[\[SoulSpec Portable Agent Identity Standard\]\]](../models/SoulSpec%20Portable%20Agent%20Identity%20Standard.html)
   - SoulSpec adopts the SOUL/IDENTITY distinction at the portable standard level, separating behavioral guidelines from identity metadata.
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - Productive disagreement between agents requires behavioral specification — identity-only personas cannot reliably produce distinct review stances.

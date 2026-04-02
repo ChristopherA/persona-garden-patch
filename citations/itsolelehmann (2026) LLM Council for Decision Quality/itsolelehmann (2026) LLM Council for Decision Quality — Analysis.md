@@ -66,7 +66,7 @@ This illustrates the gap-detection mechanism concretely. Each advisor operates w
 
 ## Architectural Comparison: Council vs Estate Persona Review
 
-The estate's [[Structured Disagreement Through Persona Review]]↑ pattern shares structural requirements with Lehmann's council but differs in several dimensions:
+The estate's [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) pattern shares structural requirements with Lehmann's council but differs in several dimensions:
 
 | Dimension | Lehmann's LLM Council | Estate Persona Review |
 |-----------|----------------------|----------------------|
@@ -105,4 +105,4 @@ This pattern appears in Lehmann's council (the "what did all five miss?" questio
 
 - Primary source: [How to finally trust Claude's advice using Karpathy's LLM Council method (@itsolelehmann)](Renditions/How%20to%20finally%20trust%20Claude's%20advice%20using%20Karpathy's%20LLM%20Council%20method%20%28@itsolelehmann%29.html)
 - Referenced work: Karpathy's LLM Council (no direct citation provided in the article; described as "Andrej Karpathy built something called the LLM Council")
-- Related estate pattern: [[Structured Disagreement Through Persona Review]]↑
+- Related estate pattern: [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)

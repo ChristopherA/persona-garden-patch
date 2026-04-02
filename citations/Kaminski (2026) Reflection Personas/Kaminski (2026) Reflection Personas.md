@@ -68,7 +68,7 @@ A collection of 27 personas designed as analytical lenses for reflecting on cour
 
 ## Influence
 
-This collection provides the most developed example of the analytical-lens paradigm for AI personas — a third approach distinct from operational specialization and adversarial deliberation. The addenda's framework-grounding diagnosis applies to all persona systems: it names the mechanism (framework vs. topic label) that determines whether persona diversity produces genuine analytical divergence or cosmetic variation. The collection directly informs the garden's [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑ inquiry and the [[Structured Disagreement Through Persona Review]]↑ pattern.
+This collection provides the most developed example of the analytical-lens paradigm for AI personas — a third approach distinct from operational specialization and adversarial deliberation. The addenda's framework-grounding diagnosis applies to all persona systems: it names the mechanism (framework vs. topic label) that determines whether persona diversity produces genuine analytical divergence or cosmetic variation. The collection directly informs the garden's [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑ inquiry and the [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) pattern.
 
 ## Limitations
 
@@ -77,14 +77,14 @@ The collection's self-identified weakness — that most base personas remain at 
 ## Sources
 
 - Kaminski, Peter and Gracia, Victoria. *Reflection Personas* collection (32 files). Shared privately, March 2026.
-- Existing garden context: [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑, [[Structured Disagreement Through Persona Review]]↑, [Agentic Architecture](../../domains/Agentic%20Architecture.html) domain page
+- Existing garden context: [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑, [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html), [Agentic Architecture](../../domains/Agentic%20Architecture.html) domain page
 
 ## Relations
 
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
   - This citation provides the primary source material for the "Cultural Reflection Personas" approach described in the inquiry. The addenda deepen the inquiry's treatment of framework grounding.
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The collection is one of three independent validations cited by the pattern. The analytical-lens paradigm is distinct from the adversarial deliberation paradigm the pattern primarily describes.
 
 - relates_to::[Agentic Architecture](../../domains/Agentic%20Architecture.html)

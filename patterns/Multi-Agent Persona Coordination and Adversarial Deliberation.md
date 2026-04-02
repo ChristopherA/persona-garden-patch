@@ -65,7 +65,7 @@ Gains plateau beyond 4 agents and may reverse. The design question is not "how m
 
 **Google/MIT research on scaling agent systems**: centralized coordination improved parallelizable tasks by 80.9%; sequential reasoning tasks degraded by 39-70% with any multi-agent approach; tool-heavy tasks pay 2-6x efficiency penalty; errors amplify up to 17x without checkpoint mechanisms.
 
-**The [[Structured Disagreement Through Persona Review]]↑ pattern** in this garden instantiates adversarial deliberation with historical thinker personas organized into polarity pairs (Socrates/Feynman, etc.) with a three-round protocol: independent analysis, cross-examination, synthesis. The Groundskeeper-Gardener commission architecture uses the supervisor-subordinate collaborative topology.
+**The [Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) pattern** in this garden instantiates adversarial deliberation with historical thinker personas organized into polarity pairs (Socrates/Feynman, etc.) with a three-round protocol: independent analysis, cross-examination, synthesis. The Groundskeeper-Gardener commission architecture uses the supervisor-subordinate collaborative topology.
 
 ## Sources
 
@@ -80,7 +80,7 @@ Gains plateau beyond 4 agents and may reverse. The design question is not "how m
 
 - extracted_from::[[Persona and Agent Personalities]]↑
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The adversarial deliberation case with a concrete implementation: polarity pairs, three-round protocol, convergence gate. That pattern is an instance of this one.
 
 - relates_to::[Persona Specialization Beats Generalization in Multi-Step Work](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)
@@ -89,10 +89,10 @@ Gains plateau beyond 4 agents and may reverse. The design question is not "how m
 - relates_to::[Persona Drift Causes Detection and Prevention](Persona%20Drift%20Causes%20Detection%20and%20Prevention.html)
   - Identity maintenance under intensive agent interaction is a drift problem: the convergence pressure of multi-agent interaction pulls individual agents toward a shared behavioral center. Explicit rule constraints are the prevention mechanism.
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - The coordination overhead and saturation threshold data support augmentation framing: multi-agent systems are worth deploying where they augment human capability, not where they substitute for clearer task decomposition.
 
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
   - The distinct identity, constrained tool set, and permission scope each agent receives are the role specialization configuration layer applied to multi-agent systems.
 
 - relates_to::[[One Context One Concern]]↑

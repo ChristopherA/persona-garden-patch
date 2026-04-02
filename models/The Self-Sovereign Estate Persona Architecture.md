@@ -101,7 +101,7 @@ Three coordination mechanisms shape how estate personas work together, each grou
 
 ## Known Limitations
 
-**No adversarial deliberation mechanism.** The estate's personas coordinate operationally, not through structured disagreement. There is no anonymization step, no dissent quota, no forced steelman. When multiple perspectives are needed, the estate relies on the human's judgment after reviewing structured output. The [[Structured Disagreement Through Persona Review]]↑ pattern exists in the garden as a recognized design but is not implemented in the coordination architecture.
+**No adversarial deliberation mechanism.** The estate's personas coordinate operationally, not through structured disagreement. There is no anonymization step, no dissent quota, no forced steelman. When multiple perspectives are needed, the estate relies on the human's judgment after reviewing structured output. The [Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) pattern exists in the garden as a recognized design but is not implemented in the coordination architecture.
 
 **Single-model diversity ceiling.** All estate personas run on the same foundation model. They share the same training distribution, the same conceptual vocabulary, and potentially the same blind spots. The [Persona Selection Model](The%20Persona%20Selection%20Model.html)'s finding about cross-trait inference applies: the estate's functional diversity is genuine but bounded by the model's repertoire.
 

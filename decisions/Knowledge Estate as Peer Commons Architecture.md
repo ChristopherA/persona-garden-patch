@@ -103,7 +103,7 @@ The Gordian Club System addresses one aspect of the commons question: creating r
 - extended_by::[[Household Precinct Over Vault Precinct]]
   - The Household Precinct rename resolved the vault-vault naming collision in this architecture.
 
-- extended_by::[[Functional Types in Agent Taxonomy]]
+- extended_by::[Functional Types in Agent Taxonomy](../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html)
   - Formalizes the persona hierarchy this decision introduced (orchestrators, workers, boundary guardians).
 
 - extended_by::[[Boundary Guardian as Distinct Agent Type]]

@@ -130,7 +130,7 @@ Action form — captures *who acts* and *how they behave*.
 ## Sources
 
 - [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑ — inquiry exploring the design space
-- [[Structured Disagreement Through Persona Review]]↑ — pattern using personas for adversarial deliberation
+- [Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) — pattern using personas for adversarial deliberation
 - [[Principal-Agent Relationship in Augmented Knowledge Work]]↑ — authority model for agent personas
 - Claude Code custom agents specification — operational deployment format
 

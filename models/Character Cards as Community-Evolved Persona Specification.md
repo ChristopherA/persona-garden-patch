@@ -67,7 +67,7 @@ The specification does not address training-time persona embedding (Level 5 in [
 - relates_to::[\[\[SoulSpec Portable Agent Identity Standard\]\]](SoulSpec%20Portable%20Agent%20Identity%20Standard.html)
 - relates_to::[\[\[The Persona Spectrum from Role Label to Soul Document\]\]](The%20Persona%20Spectrum%20from%20Role%20Label%20to%20Soul%20Document.html)
 - relates_to::[\[\[Persona Form\]\]](../forms/Persona%20Form.html)
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
 - relates_to::[\[\[Agentic Architecture\]\]](../domains/Agentic%20Architecture.html)
 - relates_to::[[Conditional Knowledge Activation]]↑
 - relates_to::[[Lorebook Pattern]]↑

@@ -73,5 +73,5 @@ The document's exact content was initially extracted from a leak; Anthropic late
 - relates_to::[\[\[Ephemeral vs Persistent Persona Identity\]\]](../patterns/Ephemeral%20vs%20Persistent%20Persona%20Identity.html)
   - The soul document establishes persistent identity at the weights level; session-level persona prompts are ephemeral relative to that foundation.
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - The priority hierarchy's placement of safety above helpfulness instantiates augmentation over autonomy at the foundational character level.

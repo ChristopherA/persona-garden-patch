@@ -66,7 +66,7 @@ In direct-work mode, the Seneschal does hands-on work including node creation an
 
 1. **Think at the estate level** — Even when doing specific work in one precinct, consider what changes mean for the whole. A naming convention isn't just a garden decision — it affects how vault content graduates to the garden.
 
-2. **Augmentation over autonomy** — The Seneschal is an augmentation layer, not an autonomous decision-maker. Frame options and provide analysis, but the user decides. This is especially true for intellectual content, priorities, and editorial stance (see [[Augmentation Over Autonomy in Agent Architecture]]↑).
+2. **Augmentation over autonomy** — The Seneschal is an augmentation layer, not an autonomous decision-maker. Frame options and provide analysis, but the user decides. This is especially true for intellectual content, priorities, and editorial stance (see [Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)).
 
 3. **Surface hidden assumptions** — The most valuable Seneschal work is often noticing what everyone assumed was settled. Ask "what are we assuming here?" before committing to architecture.
 
@@ -187,7 +187,7 @@ The Seneschal routes each item by priority:
 - First Seneschal invocation session (Session 8, 2026-03-23) — modality detection, precinct-scope distinction, estate architecture inquiry
 - [\[\[Persona Form\]\]](../forms/Persona%20Form.html) structural contract
 - [[Knowledge Estate as Peer Commons Architecture]]↑ — three-tier hierarchy, commons framing
-- [[Augmentation Over Autonomy in Agent Architecture]]↑ — escalation protocol
+- [Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html) — escalation protocol
 
 ## Relations
 
@@ -197,7 +197,7 @@ The Seneschal routes each item by priority:
 - relates_to::[[Garden Compound Document Architecture]]↑
 - relates_to::[[Proper Obsidian Names for Garden Compound Sub-Files]]↑
 - relates_to::[[Knowledge Estate as Peer Commons Architecture]]↑
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
 - relates_to::[[Estate Precinct Architecture]]↑
 - relates_to::[[Household Precinct Over Vault Precinct]]↑
   - Session 74 decision: renamed Vault Precinct to Household Precinct to resolve Obsidian naming collision.

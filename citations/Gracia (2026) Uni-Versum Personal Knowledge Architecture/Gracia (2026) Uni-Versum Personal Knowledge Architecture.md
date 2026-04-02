@@ -82,10 +82,10 @@ The work is early-stage with no established reception. Its significance is archi
 
 ## Relations
 
-- relates_to::[[Functional Types in Agent Taxonomy]]↑
+- relates_to::[Functional Types in Agent Taxonomy](../../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html)
   - The estate classifies agents by coordination role (steward, orchestrator, worker, boundary guardian). Uni-Versum classifies by interface modality (human, script, AI). The taxonomies are orthogonal — both are needed.
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - Autonomia is the Uni-Versum vocabulary for the same design space: what agents can do on behalf of humans, governed by an evolving trust contract rather than static permissions.
 
 - relates_to::[[Progressive Trust]]↑

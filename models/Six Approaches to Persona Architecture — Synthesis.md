@@ -138,7 +138,7 @@ The commons question â€” how these approaches interoperate without convergence â
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]
   - The inquiry that first mapped the design space these six approaches occupy.
 
-- relates_to::[[Structured Disagreement Through Persona Review]]
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The estate pattern that connects to the deliberation approaches (Lehmann, nyk).
 
 - relates_to::[[The Self-Sovereign Estate Persona Architecture]]

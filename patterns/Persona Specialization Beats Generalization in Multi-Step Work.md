@@ -73,16 +73,16 @@ Sequential dependency slows parallel work. Coordination costs increase with agen
 - relates_to::[Role Prompting Improves Style but Not Accuracy](Role%20Prompting%20Improves%20Style%20but%20Not%20Accuracy.html)
   - Specialization produces expert-depth behavioral output per phase; this sibling pattern specifies what kind of improvement persona framing can deliver within each specialized phase.
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - Adversarial deliberation is a multi-persona coordination structure; this pattern addresses the collaborative coordination case where phase sequencing matters more than opinion diversity.
 
 - relates_to::[Multi-Agent Persona Coordination and Adversarial Deliberation](Multi-Agent%20Persona%20Coordination%20and%20Adversarial%20Deliberation.html)
   - The coordination topology choices (chain, star, mesh) intersect with phase specialization: chain topology directly maps to the sequential phase structure this pattern recommends.
 
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
   - Role specialization is one agent configuration layer; this pattern addresses how to compose multiple specializations into a coherent pipeline.
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - The 45% saturation threshold is the empirical boundary where autonomous multi-agent coordination stops producing gains; below it, specialization augments human-level task decomposition.
 
 - relates_to::[[One Context One Concern]]↑

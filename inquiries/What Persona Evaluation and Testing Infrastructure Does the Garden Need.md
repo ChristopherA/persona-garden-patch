@@ -54,10 +54,10 @@ Whether garden personas need formal evaluation at all, and if so, what metrics a
 - relates_to::[\[\[Role Prompting Improves Style but Not Accuracy\]\]](../patterns/Role%20Prompting%20Improves%20Style%20but%20Not%20Accuracy.html)
   - Understanding what persona specifications actually change is prerequisite to knowing what a persona evaluation should measure.
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - Role adherence metrics would measure whether agents stay within their designated scope — a direct test of the augmentation principle.
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - Structured disagreement mechanisms could be part of a behavioral consistency suite — does the Evaluator persona reliably produce distinct stances?
 
 - directed_at::[[Christopher Allen]]↑

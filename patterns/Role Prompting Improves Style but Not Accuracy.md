@@ -68,7 +68,7 @@ The pattern does not eliminate the need for factual accuracy improvement — it 
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
   - The axes inquiry asks which persona design choices matter. This pattern provides a specific empirical answer: behavioral axes respond to role prompting, epistemic claims do not.
 
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
   - Role specialization is one configuration layer; this pattern specifies which concerns role specialization can and cannot address within that layer.
 
 - relates_to::[Persona Specialization Beats Generalization in Multi-Step Work](Persona%20Specialization%20Beats%20Generalization%20in%20Multi-Step%20Work.html)

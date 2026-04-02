@@ -99,5 +99,5 @@ The persona selection model provides the mechanistic foundation for why role-con
 - relates_to::[[Human Authority Over Augmentation Systems]]↑
   - The persona selection model reinforces human authority by showing that AI personas are enacted characters, not autonomous agents with independent goals. The persona/system distinction aligns with treating AI output as augmentation (persona-level) rather than agency (system-level).
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The single-model diversity ceiling constrains what structured disagreement can achieve through persona prompting alone. The pattern should acknowledge this constraint and distinguish between diversity of attention (achievable) and diversity of fundamental assumptions (bounded).

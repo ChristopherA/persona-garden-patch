@@ -61,7 +61,7 @@ The semantic web formalization (SKOS/RDFS/JSON-LD) gives Gracia's vocabulary int
   - Autonomia implements the least/necessary authority space for agent delegation
 - relates_to::[[Sovereignty Is Selective Permeability Not Absolute Control]]
   - Fidelis-est frames agent authority as relational, aligning with the membrane model of sovereignty
-- relates_to::[[Functional Types in Agent Taxonomy]]
+- relates_to::[Functional Types in Agent Taxonomy](../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html)
   - The estate's coordination-role taxonomy is orthogonal to Gracia's interface-modality taxonomy; both are needed
 - relates_to::[[Deep Context Graph Vocabulary]]
   - Parallel precision infrastructure: the estate's garden forms and Gracia's Latin vocabulary both implement precision-as-freedom through different mechanisms

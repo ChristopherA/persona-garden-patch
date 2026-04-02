@@ -29,7 +29,7 @@ SoulSpec (soulspec.org) is an open standard for AI agent identity. Its core clai
 
 OpenClaw's "Workspace-First" design philosophy treats these configuration files as the source of truth for agent identity and behavior. Multi-agent support is achieved through "one gateway with many brains" — each agent has isolated state, separate tools, different personalities. Not different models; different people.
 
-**Relationship to the AGENTS.md cross-tool standard**: AGENTS.md emerged separately as a cross-tool standard for providing agent-specific project context. It originated in mid-2025 from collaboration between Sourcegraph, OpenAI, Google, Cursor, and others, and is now maintained by the Agentic AI Foundation under the Linux Foundation. As of March 2026, AGENTS.md is supported by Claude Code, Cursor, GitHub Copilot, Gemini CLI, Windsurf, Aider, Zed, Warp, and others. AGENTS.md provides project-level task instruction (what to build, what conventions to follow). SoulSpec's SOUL.md provides agent-level behavioral specification (who the agent is, how it decides). These are complementary layers — the same distinction captured in [[Task Instruction and Role Specialization as Agent Configuration Layers]]↑.
+**Relationship to the AGENTS.md cross-tool standard**: AGENTS.md emerged separately as a cross-tool standard for providing agent-specific project context. It originated in mid-2025 from collaboration between Sourcegraph, OpenAI, Google, Cursor, and others, and is now maintained by the Agentic AI Foundation under the Linux Foundation. As of March 2026, AGENTS.md is supported by Claude Code, Cursor, GitHub Copilot, Gemini CLI, Windsurf, Aider, Zed, Warp, and others. AGENTS.md provides project-level task instruction (what to build, what conventions to follow). SoulSpec's SOUL.md provides agent-level behavioral specification (who the agent is, how it decides). These are complementary layers — the same distinction captured in [Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html).
 
 **Portability**: Ollama 0.17 (February 2026) shipped with native OpenClaw integration, meaning local models can now consume SOUL.md files directly. The garden's persona architecture is single-framework (Claude Code). As multi-framework agent deployment grows, the portability question will reach the garden.
 
@@ -62,7 +62,7 @@ The standard also does not address the coordination limits that apply when multi
 
 - extracted_from::[[Persona and Agent Personalities]]↑
 - relates_to::[\[\[The Persona Spectrum from Role Label to Soul Document\]\]](The%20Persona%20Spectrum%20from%20Role%20Label%20to%20Soul%20Document.html)
-- relates_to::[[Task Instruction and Role Specialization as Agent Configuration Layers]]↑
+- relates_to::[Task Instruction and Role Specialization as Agent Configuration Layers](../models/Task%20Instruction%20and%20Role%20Specialization%20as%20Agent%20Configuration%20Layers.html)
 - relates_to::[\[\[The Persona Selection Model\]\]](The%20Persona%20Selection%20Model.html)
 - relates_to::[\[\[Persona Vectors and the Assistant Axis\]\]](Persona%20Vectors%20and%20the%20Assistant%20Axis.html)
 - relates_to::[\[\[Persona Form\]\]](../forms/Persona%20Form.html)

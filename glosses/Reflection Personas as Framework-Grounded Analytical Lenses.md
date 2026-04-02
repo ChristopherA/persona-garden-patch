@@ -76,7 +76,7 @@ The ethical dimensions of culture-based and people-based personas are acknowledg
   - Primary source for the collection, addenda, and all design observations glossed here
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
   - The collection's analytical-lens paradigm is the primary example of the cultural reflection approach in this inquiry
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The adversarial deliberation paradigm contrasts with the analytical-lens paradigm — useful for understanding what each achieves
 - relates_to::[Naming Carries Relational Weight](../convictions/Naming%20Carries%20Relational%20Weight.html)
   - The language-as-framework finding (Toki Pona) confirms the conviction that the vocabulary through which an agent thinks shapes every inference it can make
@@ -84,5 +84,5 @@ The ethical dimensions of culture-based and people-based personas are acknowledg
   - The PSM explains why framework grounding works: named analytical frameworks activate specific pretraining patterns, more precisely than topic labels
 - relates_to::[Gracia's Latin Namespace as Precision Infrastructure](Gracia's%20Latin%20Namespace%20as%20Precision%20Infrastructure.html)
   - Gracia contributed the addenda deepening three personas; the framework-grounding diagnostic and the precision-as-freedom principle are the same insight in different domains
-- relates_to::[[Functional Types in Agent Taxonomy]]↑
+- relates_to::[Functional Types in Agent Taxonomy](../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html)
   - Analytical-lens personas are a distinct functional type from operational agents — they do not execute tasks, they reframe material

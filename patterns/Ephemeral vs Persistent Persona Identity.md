@@ -88,5 +88,5 @@ Security is cleaner: a session-bound identity with expiring credentials cannot b
 - relates_to::[[One Context One Concern]]↑
   - A session-scoped identity is one concern; persistent knowledge is a separate concern. Managing them with separate mechanisms prevents the concerns from contaminating each other.
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - Session-bound credentials and ephemeral identity keep the agent from accumulating autonomous capability across session boundaries — the explicit knowledge-transfer step requires human-authorized configuration decisions.

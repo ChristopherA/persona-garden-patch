@@ -64,7 +64,7 @@ This distinction matters because it makes persona design:
 
 ## Relations
 
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
   - The persona-as-authority decision reinforces augmentation: the user designs personas as knowledge artifacts, agents implement them.
 
 - relates_to::[Does the Garden Persona Architecture Need a Portability Layer](../inquiries/Does%20the%20Garden%20Persona%20Architecture%20Need%20a%20Portability%20Layer.html)

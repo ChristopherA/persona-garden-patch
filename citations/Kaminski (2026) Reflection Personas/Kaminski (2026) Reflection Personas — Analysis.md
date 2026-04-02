@@ -126,4 +126,4 @@ The "language as framework" finding (Toki Pona works because the constraint is s
 ## Sources
 
 - All 32 source files in the Reflection Personas collection (overview, 27 personas, 4 addenda)
-- Existing garden context: [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑, [[Structured Disagreement Through Persona Review]]↑
+- Existing garden context: [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑, [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)

@@ -60,7 +60,7 @@ Nyk builds a Claude Code skill that externalizes disagreement into a multi-agent
 
 ## Influence
 
-The council represents the most architecturally complete implementation of historical-thinker-anchored multi-agent deliberation in the practitioner space. Its polarity pair structure, Problem Restate Gate, dissent quotas, and uncertainty-led verdicts each contribute distinct mechanisms not present in Lehmann's LLM Council or other multi-agent deliberation systems. The repository's expansion from 11 to 18 members and from 6 to 20 triads shows active evolution. With 105 GitHub stars and CC0/MIT licensing, the implementation is available for direct reuse. The X thread received 36,884 views and 245 bookmarks, indicating practitioner interest. For the garden, this citation is load-bearing for the [[Structured Disagreement Through Persona Review]]↑ pattern and directly informs several open questions in [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑.
+The council represents the most architecturally complete implementation of historical-thinker-anchored multi-agent deliberation in the practitioner space. Its polarity pair structure, Problem Restate Gate, dissent quotas, and uncertainty-led verdicts each contribute distinct mechanisms not present in Lehmann's LLM Council or other multi-agent deliberation systems. The repository's expansion from 11 to 18 members and from 6 to 20 triads shows active evolution. With 105 GitHub stars and CC0/MIT licensing, the implementation is available for direct reuse. The X thread received 36,884 views and 245 bookmarks, indicating practitioner interest. For the garden, this citation is load-bearing for the [Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html) pattern and directly informs several open questions in [[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑.
 
 ## Limitations
 
@@ -79,7 +79,7 @@ The council represents the most architecturally complete implementation of histo
 
 ## Relations
 
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
   - The council is the most architecturally detailed implementation of this pattern. The polarity pair graph structure, Problem Restate Gate, dissent quotas, and uncertainty-led verdicts are all mechanisms that the pattern should incorporate as known variants.
 
 - relates_to::[itsolelehmann (2026) LLM Council for Decision Quality](../itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality/itsolelehmann%20%282026%29%20LLM%20Council%20for%20Decision%20Quality.html)
@@ -97,5 +97,5 @@ The council represents the most architecturally complete implementation of histo
 - relates_to::[[Human Authority Over Augmentation Systems]]↑
   - The uncertainty-led verdict structure preserves human authority by showing the decision space rather than collapsing it. The human is the chairman. Contrasts with Lehmann's chairman synthesis, which collapses uncertainty into a single recommendation.
 
-- relates_to::[[Functional Types in Agent Taxonomy]]↑
+- relates_to::[Functional Types in Agent Taxonomy](../../decisions/Functional%20Types%20in%20Agent%20Taxonomy.html)
   - The council's members are epistemological roles (ways of knowing) rather than operational roles (functional responsibilities). The estate uses operational taxonomy; the council uses reasoning taxonomy. The two are orthogonal and potentially composable.

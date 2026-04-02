@@ -81,8 +81,8 @@ The 275-archetype mapping was conducted on three open-weights models, not on Cla
 - relates_to::[\[\[Psychometric Personality Frameworks for AI Agents\]\]](Psychometric%20Personality%20Frameworks%20for%20AI%20Agents.html)
 - relates_to::[\[\[Persona Form\]\]](../forms/Persona%20Form.html)
 - relates_to::[[Persona Design Choices Across Analytical Cultural and Professional Axes]]↑
-- relates_to::[[Structured Disagreement Through Persona Review]]↑
-- relates_to::[[Augmentation Over Autonomy in Agent Architecture]]↑
+- relates_to::[Structured Disagreement Through Persona Review](../patterns/Structured%20Disagreement%20Through%20Persona%20Review.html)
+- relates_to::[Augmentation Over Autonomy in Agent Architecture](../decisions/Augmentation%20Over%20Autonomy%20in%20Agent%20Architecture.html)
 - relates_to::[\[\[Agentic Architecture\]\]](../domains/Agentic%20Architecture.html)
 - relates_to::[[Activation Steering]]↑
 - relates_to::[[Persona Drift Detection]]↑
