@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 64 grafted nodes · 35 form definitions grafted · 315 upstream↑ nodes documented**
+**8 patch-native⊙ nodes · 68 grafted nodes · 35 form definitions grafted · 315+ upstream↑ nodes documented**
 
 ---
 
@@ -62,6 +62,7 @@ Interpretive definitions that frame persona concepts.
 - [\[\[Anthropic Soul Document as Training-Time Character Specification\]\]](glosses/Anthropic%20Soul%20Document%20as%20Training-Time%20Character%20Specification.html) — How Anthropic's soul document functions as a character specification embedded during training
 - [\[\[Gracia's Latin Namespace as Precision Infrastructure\]\]](glosses/Gracia%27s%20Latin%20Namespace%20as%20Precision%20Infrastructure.html) — Latin as namespace isolation — one term, one meaning, no prior-tool connotations
 - [\[\[Reflection Personas as Framework-Grounded Analytical Lenses\]\]](glosses/Reflection%20Personas%20as%20Framework-Grounded%20Analytical%20Lenses.html) — Frameworks generate different questions — topic labels generate different answers to the same question
+- [\[\[Accountability as a Layer Not a Replacement\]\]](glosses/Accountability%20as%20a%20Layer%20Not%20a%20Replacement.html) — Add coordination between sovereign systems without modifying either side
 
 ### Inquiries
 
@@ -144,6 +145,7 @@ Source material dossiers with lead files, analysis, and renditions.
 - [\[\[Kaminski (2026) Reflection Personas\]\]](citations/Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas.html) — 27 analytical lenses showing that frameworks, not topic labels, produce genuine persona divergence
 - [\[\[nyk_builderz (2026) Council of High Intelligence Structured Disagreement\]\]](citations/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement.html) — Historical-thinker personas in polarity pairs with enforced disagreement
 - [\[\[Allen (2015) A Spectrum of Consent\]\]](citations/Allen%20%282015%29%20A%20Spectrum%20of%20Consent.html) — Twenty-three governance models from unanimity to autocracy — consent is a spectrum, not a binary
+- [\[\[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems\]\]](citations/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems.html) — The Horton protocol: accountability layered on capabilities without modifying either side
 
 ---
 

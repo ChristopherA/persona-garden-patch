@@ -49,6 +49,8 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 
 **Explore the commons question** — [Vocabulary Collision Navigation](patterns/Vocabulary%20Collision%20Navigation.html) addresses what happens when multiple valid naming traditions converge. [Naming Carries Relational Weight](convictions/Naming%20Carries%20Relational%20Weight.html) explains why naming choices are architectural, not decorative. [Knowledge Estate as Peer Commons Architecture](decisions/Knowledge%20Estate%20as%20Peer%20Commons%20Architecture.html) frames the governance question.
 
+**The interposition pattern** — [Accountability as a Layer Not a Replacement](glosses/Accountability%20as%20a%20Layer%20Not%20a%20Replacement.html) connects Miller's Horton protocol (adding accountability to capability systems without modifying either side) to the group's cross-garden coordination problem. The same architectural move — interpose a coordination layer rather than merging the systems — is what citations, glosses, and vocabulary bridges already do between our independent knowledge systems.
+
 **Read the personas** — Eight [persona design documents](personas/) define the operational architecture for a multi-agent knowledge estate, from estate-level strategist to specialized garden worker.
 
 ### By the Numbers
@@ -57,9 +59,9 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 
 **61 grafted nodes** — transplanted from the source garden:
 - 6 [models](models/) mapping the persona design landscape
-- 5 [citations](citations/) — deep reads of external approaches with provisional seeds
+- 6 [citations](citations/) — deep reads of external approaches with provisional seeds
 - 5 [patterns](patterns/) capturing what works and what fails
-- 7 [glosses](glosses/) bridging vocabularies across approaches
+- 8 [glosses](glosses/) bridging vocabularies across approaches
 - 5 [decisions](decisions/) recording architectural choices with rationale
 - 3 [convictions](convictions/) — beliefs with grounding
 - 2 [boundaries](boundaries/) — authority and publication constraints
@@ -126,7 +128,7 @@ This patch grows through conversation. Each tag marks a snapshot for a specific 
 | Tag | Date | Nodes | What Changed |
 |-----|------|-------|-------------|
 | [`thursday-2026-03-26`](https://github.com/christophera/persona-garden-patch/releases/tag/thursday-2026-03-26) | March 26, 2026 | 40 | Inception — 8 personas, research models, patterns, the Groundskeeper's letter |
-| `thursday-2026-04-03` | April 3, 2026 | 61 | Citation dossiers, six-approach synthesis, commons architecture, AGENT.md, vocabulary bridges |
+| `thursday-2026-04-03` | April 3, 2026 | 68 | Citation dossiers, six-approach synthesis, commons architecture, AGENT.md, vocabulary bridges, Horton citation + interposition gloss |
 
 ---
 

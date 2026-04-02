@@ -2,6 +2,8 @@
 
 Interpretive definitions that frame concepts through a broader lens.
 
+**[Accountability as a Layer Not a Replacement](Accountability%20as%20a%20Layer%20Not%20a%20Replacement.html)** — Add coordination between sovereign systems without modifying either side
+
 **[Anthropic Soul Document as Training-Time Character Specification](Anthropic%20Soul%20Document%20as%20Training-Time%20Character%20Specification.html)** — The soul document shapes model weights; garden personas shape session behavior
 
 **[Behavioral Questions vs Identity Assertions in Persona Design](Behavioral%20Questions%20vs%20Identity%20Assertions%20in%20Persona%20Design.html)** — Behavioral specs resolve ambiguity; identity claims don't
@@ -34,4 +36,4 @@ Interpretive definitions that frame concepts through a broader lens.
 
 **[Upstream Node as Source Garden Reference](Upstream%20Node%20as%20Source%20Garden%20Reference.html)** — A node that exists in the source garden but was not grafted into this patch
 
-*16 nodes in this section.*
+*17 nodes in this section.*

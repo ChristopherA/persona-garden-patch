@@ -26,6 +26,12 @@ Structured dossiers on published works with analysis and insights.
 
 **[Kaminski (2026) Reflection Personas](Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas.html)** — 27 analytical lenses showing that frameworks, not topic labels, produce genuine persona divergence
 
+**[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems](Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems.html)** — The Horton protocol: accountability layered on capabilities without modifying either side
+
+**[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems — Analysis](Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems%20—%20Analysis.html)**
+
+**[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems — Insights](Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20%282007%29%20Delegating%20Responsibility%20in%20Digital%20Systems%20—%20Insights.html)**
+
 **[Kaminski (2026) Reflection Personas — Analysis](Kaminski%20%282026%29%20Reflection%20Personas/Kaminski%20%282026%29%20Reflection%20Personas%20—%20Analysis.html)**
 
 **[Persona - Anthropologist](Kaminski%20%282026%29%20Reflection%20Personas/Renditions/Persona%20-%20Anthropologist.html)**
@@ -96,4 +102,4 @@ Structured dossiers on published works with analysis and insights.
 
 **[nyk_builderz (2026) Council of High Intelligence Structured Disagreement — Analysis](nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement/nyk_builderz%20%282026%29%20Council%20of%20High%20Intelligence%20Structured%20Disagreement%20—%20Analysis.html)**
 
-*47 nodes in this section.*
+*51 nodes in this section.*
