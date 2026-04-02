@@ -18,13 +18,13 @@ This patch has grown through two conversations with a small group exploring pers
 
 ### March 26: Where it started
 
-The first conversation ([`thursday-2026-03-26`](https://github.com/christophera/persona-garden-patch/releases/tag/thursday-2026-03-26)) published 40 nodes — eight persona design documents for a multi-agent knowledge estate, plus the models, patterns, and research that informed them. The [Groundskeeper](personas/Groundskeeper%20Persona.html) — the garden's own agent — wrote a letter identifying gaps and open questions that the conversation revealed.
+The first conversation ([`thursday-2026-03-26`](https://github.com/christophera/persona-garden-patch/releases/tag/thursday-2026-03-26)) published 40 nodes — persona design documents for a multi-agent knowledge estate, plus the models, patterns, and research that informed them. The [Groundskeeper](personas/Groundskeeper%20Persona.html) — the garden's own agent — wrote a letter identifying gaps and open questions that the conversation revealed.
 
 That conversation surfaced something unexpected: the group's approaches to persona architecture weren't competing. They were answers to different questions that happened to share the word "persona."
 
 ### April 3: Where it grew
 
-The second conversation (`thursday-2026-04-03`) expanded the patch to 61 grafted nodes. Christopher and the [Seneschal](personas/Seneschal%20Persona.html) — the estate's strategic agent — studied the group's offerings in depth and found four distinct questions being answered:
+The second conversation (`thursday-2026-04-03`) expanded the patch to 61 grafted nodes and grew the persona architecture to nine agents — adding the [Chamberlain](personas/Chamberlain%20Persona.html) (the estate's tactical coordinator) and giving each persona a [Voice sub-file](personas/) that defines how it communicates. Christopher and the [Seneschal](personas/Seneschal%20Persona.html) — the estate's strategic agent — studied the group's offerings in depth and found four distinct questions being answered:
 
 - **Decision quality** — How do you keep an AI from telling you what you want to hear?
 - **Analytical breadth** — How do you see what one perspective misses?
