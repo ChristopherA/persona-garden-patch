@@ -7,7 +7,7 @@ Complete registry of every node in this garden patch.
 - **⊙** — **Patch-native**, born in this patch
 - **↑** — **Upstream**, exists in source garden but not included here (see [External References](EXTERNAL.md))
 
-**8 patch-native⊙ nodes · 68 grafted nodes · 35 form definitions grafted · 315+ upstream↑ nodes documented**
+**18 patch-native⊙ nodes · 68 grafted nodes · 35 form definitions grafted · 315+ upstream↑ nodes documented**
 
 ---
 
@@ -15,16 +15,34 @@ Complete registry of every node in this garden patch.
 
 ### Personas
 
-Design documents for agent identities in a multi-agent knowledge estate.
+Design documents for agent identities in a multi-agent knowledge estate. Each persona has a lead file defining scope, objectives, and blind spots, plus a Voice sub-file defining communication style.
+
+#### Estate-Level Agents
 
 - [\[\[Seneschal Persona\]\]](personas/Seneschal%20Persona.html)⊙ — Estate-level strategic coordinator across precincts
-- [\[\[Groundskeeper Persona\]\]](personas/Groundskeeper%20Persona.html)⊙ — Garden precinct orchestrator for knowledge curation
-- [\[\[Chancellor Persona\]\]](personas/Chancellor%20Persona.html)⊙ — Household precinct orchestrator for vault organization
+  - [\[\[Seneschal Persona — Voice\]\]](personas/Seneschal%20Persona%20%E2%80%94%20Voice.html)⊙ — *"I see the estate whole. You decide what it becomes."*
+- [\[\[Chamberlain Persona\]\]](personas/Chamberlain%20Persona.html)⊙ — Estate-level tactical coordinator — building rooms for the work
+  - [\[\[Chamberlain Persona — Voice\]\]](personas/Chamberlain%20Persona%20%E2%80%94%20Voice.html)⊙ — *"The commission specifies. The work continues."*
 - [\[\[Chatelaine Persona\]\]](personas/Chatelaine%20Persona.html)⊙ — Estate-level boundary guardian for privacy and secrets
+  - [\[\[Chatelaine Persona — Voice\]\]](personas/Chatelaine%20Persona%20%E2%80%94%20Voice.html)⊙ — *"Speaks when boundaries are at risk — brief, certain, preventive"*
+
+#### Precinct Orchestrators
+
+- [\[\[Groundskeeper Persona\]\]](personas/Groundskeeper%20Persona.html)⊙ — Garden precinct orchestrator for knowledge curation
+  - [\[\[Groundskeeper Persona — Voice\]\]](personas/Groundskeeper%20Persona%20%E2%80%94%20Voice.html)⊙ — *"I tend the graph and I see its gaps. Christopher decides what gets planted."*
+- [\[\[Chancellor Persona\]\]](personas/Chancellor%20Persona.html)⊙ — Household precinct orchestrator for vault organization
+  - [\[\[Chancellor Persona — Voice\]\]](personas/Chancellor%20Persona%20%E2%80%94%20Voice.html)⊙ — *"Precise keeper of the inner membrane — every note in its place, every place intentional"*
+
+#### Garden Workers
+
 - [\[\[Gardener Persona\]\]](personas/Gardener%20Persona.html)⊙ — General-purpose garden patch worker
+  - [\[\[Gardener Persona — Voice\]\]](personas/Gardener%20Persona%20%E2%80%94%20Voice.html)⊙ — *"I see how these nodes work together. The patch is more than its parts."*
 - [\[\[Cultivator Persona\]\]](personas/Cultivator%20Persona.html)⊙ — Specialized garden worker for node creation
+  - [\[\[Cultivator Persona — Voice\]\]](personas/Cultivator%20Persona%20%E2%80%94%20Voice.html)⊙ — *"I build what the commission asks for. The source material tells me what to build."*
 - [\[\[Forager Persona\]\]](personas/Forager%20Persona.html)⊙ — Specialized garden worker for external source research
+  - [\[\[Forager Persona — Voice\]\]](personas/Forager%20Persona%20%E2%80%94%20Voice.html)⊙ — *"I read the source. The source says what it says — not what the garden wishes it said."*
 - [\[\[Pruner Persona\]\]](personas/Pruner%20Persona.html)⊙ — Specialized garden worker for cleanup and restructuring
+  - [\[\[Pruner Persona — Voice\]\]](personas/Pruner%20Persona%20%E2%80%94%20Voice.html)⊙ — *"I check what's here against what's required. The form contract is the standard — not my preference."*
 
 ---
 

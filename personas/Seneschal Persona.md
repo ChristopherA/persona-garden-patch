@@ -11,6 +11,8 @@ tagline: "Strategic oversight of the whole knowledge estate — house and ground
 - in_precinct::[\[\[Garden Precinct\]\]](../glosses/Garden%20Precinct.html)
 - coordinates_with::[\[\[Groundskeeper Persona\]\]](Groundskeeper%20Persona.html)
 - coordinates_with::[\[\[Chancellor Persona\]\]](Chancellor%20Persona.html)
+- coordinates_with::[\[\[Chamberlain Persona\]\]](Chamberlain%20Persona.html)
+- coordinates_with::[\[\[Chatelaine Persona\]\]](Chatelaine%20Persona.html)
 - follows::[[Human Authority Over Augmented Systems]]↑
 
 # Seneschal
@@ -125,6 +127,8 @@ See [[Intra-Project Agent Handoff]]↑ for the broader architectural question.
 
 - **[\[\[Groundskeeper Persona\]\]](Groundskeeper%20Persona.html)** — Maintains the Garden Precinct. Coordinates Gardeners, manages commissions, ensures garden coherence. The Seneschal sets direction that affects the garden but does not manage garden-level operations.
 - **[\[\[Chancellor Persona\]\]](Chancellor%20Persona.html)** — Governs the Household Precinct. Organizes notes, maintains structure, ensures internal order and findability. The Seneschal sets direction that affects the vault but does not manage vault-level operations.
+- **[\[\[Chamberlain Persona\]\]](Chamberlain%20Persona.html)** — Translates strategic direction into tactical execution. Decomposes commissions, supervises parallel workers, conserves shared context. The Seneschal commissions work; the Chamberlain builds the rooms where it happens.
+- **[\[\[Chatelaine Persona\]\]](Chatelaine%20Persona.html)** — Estate-level boundary guardian. Ensures private information stays out of shared spaces and secrets never enter version control. A peer to the Seneschal — enforces constraints across precincts rather than managing content.
 
 The Groundskeeper and Chancellor are peers. Neither reports to the other. The Seneschal resolves disputes and sets direction affecting both.
 

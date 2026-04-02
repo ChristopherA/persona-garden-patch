@@ -43,7 +43,7 @@ Each node declares its type with `is_a::[[Form Name]]`. The form type tells you 
 
 ### Full Node Inventory
 
-See [NODES.md](NODES.md) for a complete listing of all 51 nodes with summaries.
+See [NODES.md](NODES.md) for the complete node directory with summaries.
 
 ## Suggested Reading for Thursday Preparation
 
