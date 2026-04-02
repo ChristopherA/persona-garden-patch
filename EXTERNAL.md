@@ -320,6 +320,8 @@ When you see `[[Node Name]]↑` in a garden node, it links here. The ↑ marker 
 
 **Scenario Lifecycle and Aging**: Inquiry into how scenario nodes age — when a scenario is validated by events it becomes a case, but invalidated scenarios may still hold value through their force analysis. Explores lifecycle transitions, retention criteria, and whether wrong-but-useful scenarios should persist or archive.
 
+**Should Persona Nodes Graduate to Compound Documents**: Inquiry into whether Persona Form nodes should become compound documents as they accumulate voice discoveries, external communications, and operational learnings beyond what a single lead file can hold. Personas accumulate history that outgrows a single file — when does a persona become a folder?
+
 **Trust Layer Activation Criteria**: Inquiry into when a garden needs the trust layer — Gordian Envelope's signing, elision, and verified exchange capabilities. The architecture defines the trust layer as a future phase but leaves activation criteria undefined. Explores what triggers the transition from markdown-only to cryptographically-verified exchange.
 
 **Universal Document Lifecycle State Machine**: Open question: is there a single document lifecycle state machine that generalizes across wiki pages, garden nodes, and agent context files? The deep context architecture has three status tracks for three kinds of work — but wiki, garden, and agent domains face the same lifecycle problems under different names.
