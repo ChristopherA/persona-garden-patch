@@ -57,7 +57,9 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 
 ### By the Numbers
 
-**18 patch-native⊙ nodes** — persona design documents and voice sub-files born in this patch
+**18 patch-native⊙ nodes** born in this patch:
+- 9 [persona design documents](personas/) — behavioral scope, objectives, and blind spots for each agent
+- 9 [voice sub-files](personas/) — communication style and constraints for each persona
 
 **61 grafted nodes** — transplanted from the source garden:
 - 6 [models](models/) mapping the persona design landscape
